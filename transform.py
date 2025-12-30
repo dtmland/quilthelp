@@ -4,7 +4,6 @@ Transform HelpIndex.txt into clean, browser-friendly HTML.
 Generates a grid/card layout with a light theme, organized by brand and category.
 """
 
-import os
 import re
 from pathlib import Path
 from collections import defaultdict
@@ -60,14 +59,19 @@ class HelpIndexTransformer:
             for line in f:
                 line = line.strip()
                 
+                # Check for headers
+                if line.startswith('## BRAND:'):
+                    current_brand = line.replace('## BRAND:', '').strip()
+                    continue
+                elif line.startswith('### CATEGORY:'):
+                    current_category = line.replace('### CATEGORY:', '').strip()
+                    continue
+                elif line.startswith('#### '):
+                    current_section = line.replace('####', '').strip()
+                    continue
+                
+                # Skip empty lines and comments
                 if not line or line.startswith('#'):
-                    # Check for headers
-                    if line.startswith('## BRAND:'):
-                        current_brand = line.replace('## BRAND:', '').strip()
-                    elif line.startswith('### CATEGORY:'):
-                        current_category = line.replace('### CATEGORY:', '').strip()
-                    elif line.startswith('#### '):
-                        current_section = line.replace('####', '').strip()
                     continue
                     
                 # Parse content items
@@ -404,7 +408,7 @@ class HelpIndexTransformer:
         checklist.append(f"Total Files: {len(self.referenced_files)}\n\n")
         
         for i, pdf_path in enumerate(sorted(set(self.referenced_files)), 1):
-            exists = (Path(pdf_path)).exists()
+            exists = Path(pdf_path).exists()
             status = "✓" if exists else "✗"
             checklist.append(f"{status} {i}. {pdf_path}\n")
             
