@@ -33,7 +33,9 @@ class HelpIndexTransformer:
         if not self.help_index_path.exists():
             raise FileNotFoundError(f"{self.help_index_path} not found")
             
-        brands = defaultdict(lambda: defaultdict(list))
+        brands = []  # Use list to preserve order
+        brand_dict = {}  # Temp dict for current brand
+        brand_order = []  # Track brand order
         current_brand = None
         current_section = None
         
@@ -56,6 +58,9 @@ class HelpIndexTransformer:
                 brand_match = re.match(r'^<([A-Z]+[A-Z0-9]*)>$', line)
                 if brand_match:
                     current_brand = brand_match.group(1)
+                    if current_brand not in brand_order:
+                        brand_order.append(current_brand)
+                        brand_dict[current_brand] = defaultdict(list)
                     continue
                     
                 # Check for closing brand marker
@@ -77,7 +82,11 @@ class HelpIndexTransformer:
                                     'image': parts[2] if len(parts) > 2 else '',
                                     'category': parts[3] if len(parts) > 3 else ''
                                 }
-                                brands[current_brand][current_section].append(item)
+                                brand_dict[current_brand][current_section].append(item)
+        
+        # Convert to ordered list
+        for brand_name in brand_order:
+            brands.append((brand_name, brand_dict[brand_name]))
                         
         return brands
         
@@ -105,10 +114,10 @@ class HelpIndexTransformer:
         return None
         
     def generate_html(self, brands):
-        """Generate the HTML output with grid/card layout"""
+        """Generate the HTML output with tabbed interface and image display"""
         html_parts = []
         
-        # HTML head with modern CSS
+        # HTML head with modern CSS including tabs
         html_parts.append('''<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -155,12 +164,59 @@ class HelpIndexTransformer:
             font-size: 1.1em;
         }
         
-        .brand-section {
+        /* Tab Navigation */
+        .tab-container {
             background: white;
-            padding: 30px;
             border-radius: 15px;
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-            margin-bottom: 30px;
+            overflow: hidden;
+        }
+        
+        .tab-nav {
+            display: flex;
+            flex-wrap: wrap;
+            background: #ecf0f1;
+            border-bottom: 2px solid #3498db;
+        }
+        
+        .tab-button {
+            flex: 1;
+            min-width: 120px;
+            padding: 15px 20px;
+            background: #ecf0f1;
+            border: none;
+            cursor: pointer;
+            font-size: 1em;
+            font-weight: 600;
+            color: #7f8c8d;
+            transition: all 0.3s ease;
+            border-bottom: 3px solid transparent;
+        }
+        
+        .tab-button:hover {
+            background: #d5dbdb;
+            color: #2c3e50;
+        }
+        
+        .tab-button.active {
+            background: white;
+            color: #3498db;
+            border-bottom: 3px solid #3498db;
+        }
+        
+        .tab-content {
+            display: none;
+            padding: 30px;
+            animation: fadeIn 0.3s ease-in;
+        }
+        
+        .tab-content.active {
+            display: block;
+        }
+        
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
         }
         
         .brand-title {
@@ -219,15 +275,31 @@ class HelpIndexTransformer:
         }
         
         .item-list li {
-            margin-bottom: 12px;
-            padding: 10px;
+            margin-bottom: 15px;
+            padding: 12px;
             background: white;
-            border-radius: 5px;
-            transition: background 0.2s;
+            border-radius: 8px;
+            transition: background 0.2s, box-shadow 0.2s;
         }
         
         .item-list li:hover {
             background: #e8f4f8;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+        
+        .item-content {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+        
+        .item-image {
+            width: 60px;
+            height: 60px;
+            object-fit: cover;
+            border-radius: 8px;
+            border: 2px solid #ecf0f1;
+            flex-shrink: 0;
         }
         
         .item-link {
@@ -236,20 +308,24 @@ class HelpIndexTransformer:
             display: flex;
             align-items: center;
             gap: 8px;
+            flex: 1;
         }
         
         .item-link:hover {
             text-decoration: underline;
         }
         
+        .pdf-icon, .video-icon {
+            font-weight: bold;
+            flex-shrink: 0;
+        }
+        
         .pdf-icon {
             color: #e74c3c;
-            font-weight: bold;
         }
         
         .video-icon {
             color: #9b59b6;
-            font-weight: bold;
         }
         
         footer {
@@ -263,6 +339,12 @@ class HelpIndexTransformer:
         }
         
         @media (max-width: 768px) {
+            .tab-button {
+                min-width: 100px;
+                padding: 12px 15px;
+                font-size: 0.9em;
+            }
+            
             .section-grid {
                 grid-template-columns: 1fr;
             }
@@ -274,6 +356,11 @@ class HelpIndexTransformer:
             .brand-title {
                 font-size: 1.5em;
             }
+            
+            .item-image {
+                width: 50px;
+                height: 50px;
+            }
         }
     </style>
 </head>
@@ -283,18 +370,37 @@ class HelpIndexTransformer:
             <h1>🧵 Quilt Help Index</h1>
             <p class="subtitle">Your comprehensive guide to quilting machine resources</p>
         </header>
+        
+        <div class="tab-container">
+            <div class="tab-nav">
 ''')
         
-        # Generate content for each brand
-        for brand, sections in sorted(brands.items()):
-            # Format brand name for display
+        # Generate tab buttons
+        for idx, (brand, sections) in enumerate(brands):
             brand_display = brand.replace('GEN2', ' Gen 2').replace('APQSGEN2', 'APQS Gen 2')
             brand_display = brand_display.title() if brand_display.isupper() else brand_display
+            active_class = ' active' if idx == 0 else ''
+            brand_id = brand.lower().replace(' ', '-')
             
             html_parts.append(f'''
-        <div class="brand-section">
-            <h2 class="brand-title">{html.escape(brand_display)}</h2>
-            <div class="section-grid">
+                <button class="tab-button{active_class}" onclick="switchTab('{brand_id}')">{html.escape(brand_display)}</button>''')
+        
+        html_parts.append('''
+            </div>
+            
+''')
+        
+        # Generate tab content for each brand
+        for idx, (brand, sections) in enumerate(brands):
+            brand_display = brand.replace('GEN2', ' Gen 2').replace('APQSGEN2', 'APQS Gen 2')
+            brand_display = brand_display.title() if brand_display.isupper() else brand_display
+            active_class = ' active' if idx == 0 else ''
+            brand_id = brand.lower().replace(' ', '-')
+            
+            html_parts.append(f'''
+            <div id="{brand_id}" class="tab-content{active_class}">
+                <h2 class="brand-title">{html.escape(brand_display)}</h2>
+                <div class="section-grid">
 ''')
             
             # Section icons
@@ -314,36 +420,55 @@ class HelpIndexTransformer:
                 icon = section_icons.get(section_name, '📄')
                 
                 html_parts.append(f'''
-                <div class="section-card {section_class}">
-                    <div class="section-header {section_class}">
-                        <span class="icon">{icon}</span>
-                        <span>{section_name}</span>
-                    </div>
-                    <ul class="item-list">
+                    <div class="section-card {section_class}">
+                        <div class="section-header {section_class}">
+                            <span class="icon">{icon}</span>
+                            <span>{section_name}</span>
+                        </div>
+                        <ul class="item-list">
 ''')
                 
                 for item in items:
                     title = item['title']
                     resource_path = self.get_resource_path(item)
+                    image_path = self.get_image_path(item)
                     is_video = resource_path.startswith('http')
                     icon_html = '<span class="video-icon">🎥</span>' if is_video else '<span class="pdf-icon">📄</span>'
                     
-                    html_parts.append(f'''
-                        <li>
-                            <a href="{html.escape(resource_path, quote=True)}" class="item-link" target="_blank">
-                                {icon_html}
-                                <span>{html.escape(title)}</span>
-                            </a>
-                        </li>
+                    # Build item HTML with optional image
+                    if image_path:
+                        html_parts.append(f'''
+                            <li>
+                                <div class="item-content">
+                                    <img src="{html.escape(image_path, quote=True)}" alt="{html.escape(title)}" class="item-image" onerror="this.style.display='none'">
+                                    <a href="{html.escape(resource_path, quote=True)}" class="item-link" target="_blank">
+                                        {icon_html}
+                                        <span>{html.escape(title)}</span>
+                                    </a>
+                                </div>
+                            </li>
+''')
+                    else:
+                        html_parts.append(f'''
+                            <li>
+                                <a href="{html.escape(resource_path, quote=True)}" class="item-link" target="_blank">
+                                    {icon_html}
+                                    <span>{html.escape(title)}</span>
+                                </a>
+                            </li>
 ''')
                 
                 html_parts.append('''
-                    </ul>
-                </div>
+                        </ul>
+                    </div>
 ''')
             
             html_parts.append('''
+                </div>
             </div>
+''')
+        
+        html_parts.append('''
         </div>
 ''')
         
@@ -354,6 +479,33 @@ class HelpIndexTransformer:
             <p>Total resources: {len(self.referenced_files)} files referenced</p>
         </footer>
     </div>
+    
+    <script>
+        function switchTab(tabId) {{
+            // Hide all tab contents
+            const contents = document.querySelectorAll('.tab-content');
+            contents.forEach(content => content.classList.remove('active'));
+            
+            // Deactivate all tab buttons
+            const buttons = document.querySelectorAll('.tab-button');
+            buttons.forEach(button => button.classList.remove('active'));
+            
+            // Show selected tab content
+            const selectedContent = document.getElementById(tabId);
+            if (selectedContent) {{
+                selectedContent.classList.add('active');
+            }}
+            
+            // Activate selected tab button
+            const selectedButton = Array.from(buttons).find(btn => 
+                btn.textContent.toLowerCase().replace(/\\s+/g, '-') === tabId ||
+                btn.onclick.toString().includes(tabId)
+            );
+            if (selectedButton) {{
+                selectedButton.classList.add('active');
+            }}
+        }}
+    </script>
 </body>
 </html>
 ''')
