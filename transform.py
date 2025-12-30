@@ -109,16 +109,6 @@ class HelpIndexTransformer:
                     
         return best_match
         
-    def find_image_for_model(self, model_name):
-        """Find image for a model based on model name"""
-        # Extract model identifier (e.g., "MC6700P" from "MC6700P: Getting Started Guide")
-        model_id = model_name.split(':')[0].strip()
-        
-        for description, img_path in self.image_map.items():
-            if model_id in description:
-                return img_path
-        return None
-        
     def generate_html(self, brands):
         """Generate the HTML output with grid/card layout"""
         html_parts = []
@@ -270,15 +260,6 @@ class HelpIndexTransformer:
         .pdf-icon {
             color: #e74c3c;
             font-weight: bold;
-        }
-        
-        .model-image {
-            width: 100%;
-            max-width: 200px;
-            height: auto;
-            border-radius: 8px;
-            margin-top: 10px;
-            border: 2px solid #ecf0f1;
         }
         
         footer {
