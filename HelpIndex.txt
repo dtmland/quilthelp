@@ -1,75 +1,495 @@
-# QUILT HELP INDEX
+Instructions - Update the list sets for each brand
+               When copying and pasting, make sure the numbering is updated.
+               To remove a document, use EMPTY in the tag e.g. <0>EMPTY<0>,
+                   DO NOT remove the entire line
+               Numbering must remain in sequence
+               An existing line may be overwritten with new content.
 
-## BRAND: Janome
+<QUILTMOTION>
 
-### CATEGORY: Memory Craft Series
+<HELP>
+  <0>3-Select and Sew Borders and Corners,3-Select and Sew How to Place and Sew Borders & Corners.pdf,select3.jpg</0>
+  <1>Downloading Gold Patterns,Downloading Gold Subscription Patterns.pdf,dsp.jpg,help pdh</1>
+  <2>Hoop Frame Zone Placement,Hoop frame Zone Placement.pdf,hf.jpg,help pdh</2>
+  <3>Borders and Corners,Gold Access B and C.pdf,bandc.jpg,help pdh</3>
+  <4>PatternCAD,PatternCAD.pdf,pc.jpg,help pdh</4>
+  <5>Plug-Ins Batch Import,Plug-Ins Batch Import.pdf,bi.jpg,help pdh</5>
+  <6>Print and Record,Print and Record.pdf,pandr.jpg,help pdh</6>
+  <7>Zone Center Placement,Quick Guide for Center Placement Between Zones.pdf,center.jpg,help pdh</7>
+  <8>QuiltCAD,QuiltCAD.pdf,qc.jpg,help pdh</8>
+  <9>Update Your Software,Updating and Installing Online Updates.pdf,update.jpg,help pdh</9>
+  <10>1-Select and Sew,1-Select and Sew Power Placement Screen and Functions.pdf,select1.jpg,help pdh</10>
+  <11>2-Select and Sew,2-Select and Sew Placement Methods How Too Place and Sew.pdf,select2.jpg,help pdh</11>
+  <12>1-Pantograph,1-Pantograph PantoStacker Screen Power Panto Mode.pdf,panto1.jpg,help pdh</12>
+  <13>2-Pantograph,2-Pantograph Power Panto Mode How to Place as a Single Pattern.pdf,panto2.jpg,help pdh</13>
+  <14>3-Pantograph,3-Pantograph Power Panto Mode How to Sew in Zones.pdf,panto3.jpg,help pdh</14>
+  <15>Quick Start Power Placement Block,Quick Start Power Placement Place and Sew a Block design.pdf,qs.jpg,help pdh</15>
+  <16>4 point zone placement,4 point zone placement.pdf,4p.jpg,help pdh</16>
+  <17>Borders & Corners Using Select & Sew & Pantograph,Borders & Corners Using Select & Sew & Pantograph.pdf,bcss.jpg,help pdh</17>
+  <18>EZ Mode how to set up design,EZ Mode how to set up design.pdf,ez.jpg,help pdh</18>
+  <19>Gold Features Borders and Corners - Hoop Frame,Gold Features Borders and Corners - Hoop Frame.pdf,hfbc.jpg,help pdh</19>
+  <20>Gold Multi-Placement,Gold Multi-Placement.pdf,gmp.jpg,help pdh</20>
+  <21>Home Screen Record Feature How too,Home Screen Record Feature How too.pdf,r.jpg,help pdh</21>
+  <22>Marking tool,Marking tool.pdf,mt.jpg,help pdh</22>
+  <23>Pantograph Basic Mode place as a Single Pattern,Pantograph Basic Mode place as a Single Pattern.pdf,pbm.jpg,help pdh</23>
+  <24>Pantograph PantoStacker Screen Upper Buttons Tools & Functions,Pantograph PantoStacker Screen Upper Buttons Tools & Functions.pdf,ppf.jpg,help pdh</24>
+  <25>Pantograph Power Panto Mode Sew in Zones Center Placement Rolling Frame,Pantograph Power Panto Mode Sew in Zones Center Placement Rolling Frame.pdf,pprf.jpg,help pdh</25>
+  <26>Pantograph Power Panto Mode Sew in Zones Hoop Frame,Pantograph Power Panto Mode Sew in Zones Hoop Frame.pdf,pphf.jpg,help pdh</26>
+  <27>Pantograph Power Panto Mode,Pantograph Power Panto Mode.pdf,ppm.jpg,help pdh</27>
+  <28>Pantograph Quilting Interface Screen Buttons and Functions,Pantograph Quilting Interface Screen Buttons and Functions.pdf,qi.jpg,help pdh</28>
+  <29>Pattern eClipse edge to edge design,Pattern eClipse edge to edge design.pdf,pe.jpg,help pdh</29>
+  <30>Pattern Eclipse Keep In,Pattern Eclipse Keep In.pdf,ki.jpg,help pdh</30>
+  <31>Quilting interface Screen Buttons and Functions,Quilting interface Screen Buttons and Functions.pdf,qi2.jpg,help pdh</31>
+  <32>Quilting Interface Screen Select & Sew Plus Place as a Single Pattern,Quilting Interface Screen Select & Sew Plus Place as a Single Pattern.pdf,qiss.jpg,help pdh</32>
+  <33>QuiltMotion QCT 5 Beginnings Borders & Edge to Edge design,QuiltMotion QCT 5 Beginnings Borders & Edge to Edge design.pdf,beg.jpg,help pdh</33>
+  <34>QuiltMotion QCT 5 Beginnings Sew in Zones Rolling frame Center placement,QuiltMotion QCT 5 Beginnings Sew in Zones Rolling frame Center placement.pdf,begrf.jpg,help pdh</34>
+  <35>QuiltMotion QCT5 Home Screen & Help Buttons & Functions,QuiltMotion QCT5 Home Screen & Help Buttons & Functions.pdf,home.jpg,help pdh</35>
+  <36>Resume Sewing & Repair Pattern for Hoop frame,Resume Sewing & Repair Pattern for Hoop frame.pdf,rs.jpg,help pdh</36>
+  <37>Select & Sew Placement Block Methods How to Place,Select & Sew Placement Block Methods How to Place.pdf,sspb.jpg,help pdh</37>
+  <38>Select & Sew Power Placement Tools Buttons & functions,Select & Sew Power Placement Tools Buttons & functions.pdf,sspp.jpg,help pdh</38>
+  <39>Select & Sew using Pantograph Borders & Corners,Select & Sew using Pantograph Borders & Corners.pdf,sspbc.jpg,help pdh</39>
+  <40>Sew in Zones Center Placement Using Power Panto Mode,Sew in Zones Center Placement Using Power Panto Mode.pdf,cp.jpg,help pdh</40>
+  <41>Staggering QCT 5 Power Panto EZ&Basic Modes,Staggering QCT 5 Power Panto EZ&Basic Modes.pdf,sppezb.jpg,help pdh</41>
+</HELP>
 
-#### HELP
-- MC6700P: Getting Started Guide
-- MC9900: Threading Instructions
-- MC15000: Maintenance Tips
+<TUTORIALS>
+  <0>Batch Import,QCT5 Batch Import Tutorial.pdf,batch.jpg,tutorial pdt</0>
+  <1>Nested Pantos for Beginnings,QCT5 Beginnings Nested Panto Tutorial for beginner.pdf,nested panto.jpg,tutorial pdt</1>
+  <2>Non-nested Pantos for Beginnings,QCT5 Beginnings Non-nested Panto Tutorial for beginner.pdf,non nested panto.jpg,tutorial pdt</2>
+  <3>Pattern Placement - Blocks,QCT5 Block Pattern Power Placement.pdf,pp.jpg,tutorial pdt</3>
+  <4>Borders and Corners,QCT5 Gold Access Borders and Corners Tutorial.pdf,gold bandc.jpg,tutorial pdt</4>
+  <5>Power Panto,QCT5 Pro Power Panto.pdf,ppp.jpg,tutorial pdt</5>
+  <6>Panto Upgrade from QCT4,QCT5 Beginnings Panto Upgrade Info from QCT4.pdf,beg panto.jpg,tutorial pdt</6>
+  <7>Pattern eClipse,QCT5 Gold Access Pattern eClipse.pdf,eclipse.jpg,tutorial pdt</7>
+  
+</TUTORIALS>
 
-#### TUTORIALS
-- MC6700P: Basic Embroidery Tutorial
-- MC9900: Advanced Stitching Techniques
+<VIDEOS>
+  <0>Firmware Update,https://www.youtube.com/watch?v=GsbV17eQ21w,fmupdate.jpg,videos</0>
+  <1>Unexpected Shutdown,https://www.youtube.com/watch?v=qwrHsMNCII8&t=8s,shutdown.jpg,videos</1>
+  <2>Janet George,https://www.youtube.com/user/dfgeorge/playlists,jg.jpg,videos</2>
+  <3>Lizzy Allen,https://thimbleandthread.com.au/tutorials,la.jpg,videos</3>
+  <4>Leah Day,https://www.youtube.com/channel/UCkng_xb4HFUs4W4mZnuuqEg
+,ld.jpg,videos</4>
+  <5>Sandra Wibourne,https://www.youtube.com/channel/UCCA4XcufItH6wstZP09pNHA,sw.jpg,videos</5>
+  <6>Repair pattern,https://www.youtube.com/watch?v=x_PZk4aOZcE&t=51s,rp.jpg,videos</6>
+  <7>Etched,https://www.etchedtogether.com,etched.jpg,videos</7>
+  <8>Technical Support,https://www.youtube.com/playlist?list=PLOsL4S1ROjZCNrpSKkFkx8WjQA50I1R3u,ts.jpg,videos</8>
+  <9>QCT,https://www.youtube.com/playlist?list=PLOsL4S1ROjZDD_Dw43-zyM_hcBStLxuSn,qct.jpg,videos</9>
+  <10>USB,https://www.youtube.com/watch?v=NN7mgDhpgyQ&t=68s,usb.jpg,videos</10>
+</VIDEOS>
 
-#### VIDEOS
-- MC15000: Setup and Configuration
-- MC9900: Troubleshooting Common Issues
+</QUILTMOTION>
 
-#### DESIGNERS
-- Designer V5: Installing Fonts
-- Designer V6: Creating Custom Patterns
+===================================================================================
 
-## BRAND: Brother
 
-### CATEGORY: Innov-is Series
+<NOLTING>
 
-#### HELP
-- Innov-is NV800E: User Manual Quick Reference
-- Innov-is XV8500D: Feature Overview
+<HELP>
+  <0>3-Select and Sew Borders and Corners,3-Select and Sew How to Place and Sew Borders & Corners.pdf,panto3.jpg</0>
+  <1>Downloading Gold Patterns,Downloading Gold Subscription Patterns.pdf,dsp.jpg,help pdh</1>
+  <2>EMPTY</2>
+  <3>Borders and Corners,Gold Access B and C.pdf,bandc.jpg,help pdh</3>
+  <4>PatternCAD,PatternCAD.pdf,pc.jpg,help pdh</4>
+  <5>Plug-Ins Batch Import,Plug-Ins Batch Import.pdf,bi.jpg,help pdh</5>
+  <6>Print and Record,Print and Record.pdf,pandr.jpg,help pdh</6>
+  <7>Zone Center Placement,Quick Guide for Center Placement Between Zones.pdf,center.jpg,help pdh</7>
+  <8>QuiltCAD,QuiltCAD.pdf,qc.jpg,help pdh</8>
+  <9>Update Your Software,Updating and Installing Online Updates.pdf,update.jpg,help pdh</9>
+  <10>1-Select and Sew,1-Select and Sew Power Placement Screen and Functions.pdf,select1.jpg,help pdh</10>
+  <11>2-Select and Sew,2-Select and Sew Placement Methods How Too Place and Sew.pdf,select2.jpg,help pdh</11>
+  <12>1-Pantograph,1-Pantograph PantoStacker Screen Power Panto Mode.pdf,panto1.jpg,help pdh</12>
+  <13>2-Pantograph,2-Pantograph Power Panto Mode How to Place as a Single Pattern.pdf,panto2.jpg,help pdh</13>
+  <14>3-Pantograph,3-Pantograph Power Panto Mode How to Sew in Zones.pdf,panto3.jpg,help pdh</14>
+  <15>Quick Start Power Placement Block,Quick Start Power Placement Place and Sew a Block design.pdf,qs.jpg,help pdh</15>
+  <16>4 point zone placement,4 point zone placement.pdf,4p.jpg,help pdh</16>
+  <17>Borders & Corners Using Select & Sew & Pantograph,Borders & Corners Using Select & Sew & Pantograph.pdf,bcss.jpg,help pdh</17>
+  <18>EZ Mode how to set up design,EZ Mode how to set up design.pdf,ez.jpg,help pdh</18>
+  <19>Gold Features Borders and Corners - Hoop Frame,Gold Features Borders and Corners - Hoop Frame.pdf,hfbc.jpg,help pdh</19>
+  <20>Gold Multi-Placement,Gold Multi-Placement.pdf,gmp.jpg,help pdh</20>
+  <21>Home Screen Record Feature How too,Home Screen Record Feature How too.pdf,r.jpg,help pdh</21>
+  <22>Marking tool,Marking tool.pdf,mt.jpg,help pdh</22>
+  <23>Pantograph Basic Mode place as a Single Pattern,Pantograph Basic Mode place as a Single Pattern.pdf,pbm.jpg,help pdh</23>
+  <24>Pantograph PantoStacker Screen Upper Buttons Tools & Functions,Pantograph PantoStacker Screen Upper Buttons Tools & Functions.pdf,ppf.jpg,help pdh</24>
+  <25>Pantograph Power Panto Mode Sew in Zones Center Placement Rolling Frame,Pantograph Power Panto Mode Sew in Zones Center Placement Rolling Frame.pdf,pprf.jpg,help pdh</25>
+  <26>EMPTY</26>
+  <27>Pantograph Power Panto Mode,Pantograph Power Panto Mode.pdf,ppm.jpg,help pdh</27>
+  <28>Pantograph Quilting Interface Screen Buttons and Functions,Pantograph Quilting Interface Screen Buttons and Functions.pdf,qi.jpg,help pdh</28>
+  <29>Pattern eClipse edge to edge design,Pattern eClipse edge to edge design.pdf,pe.jpg,help pdh</29>
+  <30>Pattern Eclipse Keep In,Pattern Eclipse Keep In.pdf,ki.jpg,help pdh</30>
+  <31>Quilting interface Screen Buttons and Functions,Quilting interface Screen Buttons and Functions.pdf,qi2.jpg,help pdh</31>
+  <32>Quilting Interface Screen Select & Sew Plus Place as a Single Pattern,Quilting Interface Screen Select & Sew Plus Place as a Single Pattern.pdf,qiss.jpg,help pdh</32>
+  <33>QuiltMotion QCT 5 Beginnings Borders & Edge to Edge design,QuiltMotion QCT 5 Beginnings Borders & Edge to Edge design.pdf,beg.jpg,help pdh</33>
+  <34>QuiltMotion QCT 5 Beginnings Sew in Zones Rolling frame Center placement,QuiltMotion QCT 5 Beginnings Sew in Zones Rolling frame Center placement.pdf,begrf.jpg,help pdh</34>
+  <35>QuiltMotion QCT5 Home Screen & Help Buttons & Functions,QuiltMotion QCT5 Home Screen & Help Buttons & Functions.pdf,home.jpg,help pdh</35>
+  <36>EMPTY</36>
+  <37>Select & Sew Placement Block Methods How to Place,Select & Sew Placement Block Methods How to Place.pdf,sspb.jpg,help pdh</37>
+  <38>Select & Sew Power Placement Tools Buttons & functions,Select & Sew Power Placement Tools Buttons & functions.pdf,sspp.jpg,help pdh</38>
+  <39>Select & Sew using Pantograph Borders & Corners,Select & Sew using Pantograph Borders & Corners.pdf,sspbc.jpg,help pdh</39>
+  <40>Sew in Zones Center Placement Using Power Panto Mode,Sew in Zones Center Placement Using Power Panto Mode.pdf,cp.jpg,help pdh</40>
+  <41>Staggering QCT 5 Power Panto EZ&Basic Modes,Staggering QCT 5 Power Panto EZ&Basic Modes.pdf,sppezb.jpg,help pdh</41>
+</HELP>
 
-#### TUTORIALS
-- Innov-is NV800E: First Project Guide
-- EMPTY
+<TUTORIALS>
+  <0>Batch Import,QCT5 Batch Import Tutorial.pdf,batch.jpg,tutorial pdt</0>
+  <1>Nested Pantos for Beginnings,QCT5 Beginnings Nested Panto Tutorial for beginner.pdf,nested panto.jpg,tutorial pdt</1>
+  <2>Non-nested Pantos for Beginnings,QCT5 Beginnings Non-nested Panto Tutorial for beginner.pdf,non nested panto.jpg,tutorial pdt</2>
+  <3>Pattern Placement - Blocks,QCT5 Block Pattern Power Placement.pdf,pp.jpg,tutorial pdt</3>
+  <4>Borders and Corners,QCT5 Gold Access Borders and Corners Tutorial.pdf,gold bandc.jpg,tutorial pdt</4>
+  <5>Power Panto,QCT5 Pro Power Panto.pdf,ppp.jpg,tutorial pdt</5>
+  <6>Panto Upgrade from QCT4,QCT5 Beginnings Panto Upgrade Info from QCT4.pdf,beg panto.jpg,tutorial pdt</6>
+  <7>Pattern eClipse,QCT5 Gold Access Pattern eClipse.pdf,eclipse.jpg,tutorial pdt</7>
+</TUTORIALS>
 
-#### VIDEOS
-- Innov-is XV8500D: Advanced Features Demo
+<VIDEOS>
+  <0>EMPTY</0>
+  <1>EMPTY</1>
+</VIDEOS>
 
-#### DESIGNERS
-- EMPTY
+</NOLTING>
 
-## BRAND: Bernina
+=========================================================================================
 
-### CATEGORY: 7 Series
+<BROTHER>
 
-#### HELP
-- Bernina 770 QE: Quick Start
-- Bernina 790: Accessory Guide
+<HELP>
+  <0>3-Select and Sew Borders and Corners,3-Select and Sew How to Place and Sew Borders & Corners.pdf,panto3.jpg</0>
+  <1>Downloading Gold Patterns,Downloading Gold Subscription Patterns.pdf,dsp.jpg,help pdh</1>
+  <2>Hoop Frame Zone Placement,Hoop frame Zone Placement.pdf,hf.jpg,help pdh</2>
+  <3>Borders and Corners,Gold Access B and C.pdf,bandc.jpg,help pdh</3>
+  <4>PatternCAD,PatternCAD.pdf,pc.jpg,help pdh</4>
+  <5>Plug-Ins Batch Import,Plug-Ins Batch Import.pdf,bi.jpg,help pdh</5>
+  <6>Print and Record,Print and Record.pdf,pandr.jpg,help pdh</6>
+  <7>Zone Center Placement,Quick Guide for Center Placement Between Zones.pdf,center.jpg,help pdh</7>
+  <8>QuiltCAD,QuiltCAD.pdf,qc.jpg,help pdh</8>
+  <9>Update Your Software,Updating and Installing Online Updates.pdf,update.jpg,help pdh</9>
+  <10>1-Select and Sew,1-Select and Sew Power Placement Screen and Functions.pdf,select1.jpg,help pdh</10>
+  <11>2-Select and Sew,2-Select and Sew Placement Methods How Too Place and Sew.pdf,select2.jpg,help pdh</11>
+  <12>1-Pantograph,1-Pantograph PantoStacker Screen Power Panto Mode.pdf,panto1.jpg,help pdh</12>
+  <13>2-Pantograph,2-Pantograph Power Panto Mode How to Place as a Single Pattern.pdf,panto2.jpg,help pdh</13>
+  <14>3-Pantograph,3-Pantograph Power Panto Mode How to Sew in Zones.pdf,panto3.jpg,help pdh</14>
+  <15>Quick Start Power Placement Block,Quick Start Power Placement Place and Sew a Block design.pdf,qs.jpg,help pdh</15>
+</HELP>
 
-#### TUTORIALS
-- Bernina 770 QE: Quilting Basics
-- Bernina 790: Free Motion Quilting
+<TUTORIALS>
+  <0>Batch Import,QCT5 Batch Import Tutorial.pdf,batch.jpg,tutorial pdt</0>
+  <1>Nested Pantos for Beginnings,QCT5 Beginnings Nested Panto Tutorial for beginner.pdf,nested panto.jpg,tutorial pdt</1>
+  <2>Non-nested Pantos for Beginnings,QCT5 Beginnings Non-nested Panto Tutorial for beginner.pdf,non nested panto.jpg,tutorial pdt</2>
+  <3>Pattern Placement - Blocks,QCT5 Block Pattern Power Placement.pdf,pp.jpg,tutorial pdt</3>
+  <4>Borders and Corners,QCT5 Gold Access Borders and Corners Tutorial.pdf,gold bandc.jpg,tutorial pdt</4>
+  <5>Power Panto,QCT5 Pro Power Panto.pdf,ppp.jpg,tutorial pdt</5>
+  <6>Panto Upgrade from QCT4,QCT5 Beginnings Panto Upgrade Info from QCT4.pdf,beg panto.jpg,tutorial pdt</6>
+  <7>Pattern eClipse,QCT5 Gold Access Pattern eClipse.pdf,eclipse.jpg,tutorial pdt</7>
+  </TUTORIALS>
 
-#### VIDEOS
-- Bernina 770 QE: BSR Feature Tutorial
+<VIDEOS>
+  <0>Firmware Update,https://www.youtube.com/watch?v=GsbV17eQ21w,fmupdate.jpg,videos</0>
+  <1>Unexpected Shutdown,https://www.youtube.com/watch?v=qwrHsMNCII8&t=8s,shutdown.jpg,videos</1>
+  <2>Janet George,https://www.youtube.com/user/dfgeorge/playlists,jg.jpg,videos</2>
+  <3>Lizzy Allen,https://thimbleandthread.com.au/tutorials,la.jpg,videos</3>
+  <4>Leah Day,https://www.youtube.com/channel/UCkng_xb4HFUs4W4mZnuuqEg
+,ld.jpg,videos</4>
+  <5>Sandra Wibourne,https://www.youtube.com/channel/UCCA4XcufItH6wstZP09pNHA,sw.jpg,videos</5>
+  <6>Repair pattern,https://www.youtube.com/watch?v=x_PZk4aOZcE&t=51s,rp.jpg,videos</6>
+</VIDEOS>
 
-#### DESIGNERS
-- EMPTY
+</BROTHER>
 
-## BRAND: Singer
+==========================================================================================
 
-### CATEGORY: Quantum Series
+<JUKI>
 
-#### HELP
-- Quantum Stylist 9985: Setup Guide
-- EMPTY
+<HELP>
+  <0>3-Select and Sew Borders and Corners,3-Select and Sew How to Place and Sew Borders & Corners.pdf,panto3.jpg</0>
+  <1>Downloading Gold Patterns,Downloading Gold Subscription Patterns.pdf,dsp.jpg,help pdh</1>
+  <2>EMPTY</2>
+  <3>Borders and Corners,Gold Access B and C.pdf,bandc.jpg,help pdh</3>
+  <4>PatternCAD,PatternCAD.pdf,pc.jpg,help pdh</4>
+  <5>Plug-Ins Batch Import,Plug-Ins Batch Import.pdf,bi.jpg,help pdh</5>
+  <6>Print and Record,Print and Record.pdf,pandr.jpg,help pdh</6>
+  <7>Zone Center Placement,Quick Guide for Center Placement Between Zones.pdf,center.jpg,help pdh</7>
+  <8>QuiltCAD,QuiltCAD.pdf,qc.jpg,help pdh</8>
+  <9>Update Your Software,Updating and Installing Online Updates.pdf,update.jpg,help pdh</9>
+  <10>1-Select and Sew,1-Select and Sew Power Placement Screen and Functions.pdf,select1.jpg,help pdh</10>
+  <11>2-Select and Sew,2-Select and Sew Placement Methods How Too Place and Sew.pdf,select2.jpg,help pdh</11>
+  <12>1-Pantograph,1-Pantograph PantoStacker Screen Power Panto Mode.pdf,panto1.jpg,help pdh</12>
+  <13>2-Pantograph,2-Pantograph Power Panto Mode How to Place as a Single Pattern.pdf,panto2.jpg,help pdh</13>
+  <14>3-Pantograph,3-Pantograph Power Panto Mode How to Sew in Zones.pdf,panto3.jpg,help pdh</14>
+  <15>Quick Start Power Placement Block,Quick Start Power Placement Place and Sew a Block design.pdf,qs.jpg,help pdh</15>
+  <16>4 point zone placement,4 point zone placement.pdf,4p.jpg,help pdh</16>
+  <17>Borders & Corners Using Select & Sew & Pantograph,Borders & Corners Using Select & Sew & Pantograph.pdf,bcss.jpg,help pdh</17>
+  <18>EZ Mode how to set up design,EZ Mode how to set up design.pdf,ez.jpg,help pdh</18>
+  <19>Gold Features Borders and Corners - Hoop Frame,Gold Features Borders and Corners - Hoop Frame.pdf,hfbc.jpg,help pdh</19>
+  <20>Gold Multi-Placement,Gold Multi-Placement.pdf,gmp.jpg,help pdh</20>
+  <21>Home Screen Record Feature How too,Home Screen Record Feature How too.pdf,r.jpg,help pdh</21>
+  <22>Marking tool,Marking tool.pdf,mt.jpg,help pdh</22>
+  <23>Pantograph Basic Mode place as a Single Pattern,Pantograph Basic Mode place as a Single Pattern.pdf,pbm.jpg,help pdh</23>
+  <24>Pantograph PantoStacker Screen Upper Buttons Tools & Functions,Pantograph PantoStacker Screen Upper Buttons Tools & Functions.pdf,ppf.jpg,help pdh</24>
+  <25>Pantograph Power Panto Mode Sew in Zones Center Placement Rolling Frame,Pantograph Power Panto Mode Sew in Zones Center Placement Rolling Frame.pdf,pprf.jpg,help pdh</25>
+  <26>EMPTY</26>
+  <27>Pantograph Power Panto Mode,Pantograph Power Panto Mode.pdf,ppm.jpg,help pdh</27>
+  <28>Pantograph Quilting Interface Screen Buttons and Functions,Pantograph Quilting Interface Screen Buttons and Functions.pdf,qi.jpg,help pdh</28>
+  <29>Pattern eClipse edge to edge design,Pattern eClipse edge to edge design.pdf,pe.jpg,help pdh</29>
+  <30>Pattern Eclipse Keep In,Pattern Eclipse Keep In.pdf,ki.jpg,help pdh</30>
+  <31>Quilting interface Screen Buttons and Functions,Quilting interface Screen Buttons and Functions.pdf,qi2.jpg,help pdh</31>
+  <32>Quilting Interface Screen Select & Sew Plus Place as a Single Pattern,Quilting Interface Screen Select & Sew Plus Place as a Single Pattern.pdf,qiss.jpg,help pdh</32>
+  <33>QuiltMotion QCT 5 Beginnings Borders & Edge to Edge design,QuiltMotion QCT 5 Beginnings Borders & Edge to Edge design.pdf,beg.jpg,help pdh</33>
+  <34>QuiltMotion QCT 5 Beginnings Sew in Zones Rolling frame Center placement,QuiltMotion QCT 5 Beginnings Sew in Zones Rolling frame Center placement.pdf,begrf.jpg,help pdh</34>
+  <35>QuiltMotion QCT5 Home Screen & Help Buttons & Functions,QuiltMotion QCT5 Home Screen & Help Buttons & Functions.pdf,home.jpg,help pdh</35>
+  <36>EMPTY</36>
+  <37>Select & Sew Placement Block Methods How to Place,Select & Sew Placement Block Methods How to Place.pdf,sspb.jpg,help pdh</37>
+  <38>Select & Sew Power Placement Tools Buttons & functions,Select & Sew Power Placement Tools Buttons & functions.pdf,sspp.jpg,help pdh</38>
+  <39>Select & Sew using Pantograph Borders & Corners,Select & Sew using Pantograph Borders & Corners.pdf,sspbc.jpg,help pdh</39>
+  <40>Sew in Zones Center Placement Using Power Panto Mode,Sew in Zones Center Placement Using Power Panto Mode.pdf,cp.jpg,help pdh</40>
+  <41>Staggering QCT 5 Power Panto EZ&Basic Modes,Staggering QCT 5 Power Panto EZ&Basic Modes.pdf,sppezb.jpg,help pdh</41>
+</HELP>
 
-#### TUTORIALS
-- Quantum Stylist 9985: Buttonhole Techniques
+<TUTORIALS>
+  <0>Batch Import,QCT5 Batch Import Tutorial.pdf,batch.jpg,tutorial pdt</0>
+  <1>Nested Pantos for Beginnings,QCT5 Beginnings Nested Panto Tutorial for beginner.pdf,nested panto.jpg,tutorial pdt</1>
+  <2>Non-nested Pantos for Beginnings,QCT5 Beginnings Non-nested Panto Tutorial for beginner.pdf,non nested panto.jpg,tutorial pdt</2>
+  <3>Pattern Placement - Blocks,QCT5 Block Pattern Power Placement.pdf,pp.jpg,tutorial pdt</3>
+  <4>Borders and Corners,QCT5 Gold Access Borders and Corners Tutorial.pdf,gold bandc.jpg,tutorial pdt</4>
+  <5>Power Panto,QCT5 Pro Power Panto.pdf,ppp.jpg,tutorial pdt</5>
+  <6>Panto Upgrade from QCT4,QCT5 Beginnings Panto Upgrade Info from QCT4.pdf,beg panto.jpg,tutorial pdt</6>
+  <7>Pattern eClipse,QCT5 Gold Access Pattern eClipse.pdf,eclipse.jpg,tutorial pdt</7>
+  <8>Fabric Compensation,fabric-compensation.pdf,jukifc.jpg,tutorial pdt</8>
+  <9>Fonts,fonts.pdf,jukif.jpg,tutorial pdt</9>
+  <10>Marking Tool,marking-tool.pdf,jukimt.jpg,tutorial pdt</10>
+  <11>Pattern eClipse Gold,pattern-eclipsegold.pdf,jukipe.jpg,tutorial pdt</11>
+  <12>PatternCAD creating block from photo,patterncad-qct5-creating-block-from-photo.pdf,jukiccb.jpg,tutorial pdt</12>
+  <13>Power Panto,power-panto.pdf,jukipp.jpg,tutorial pdt</13>
+  <14>QCT5 QuiltCAD,qct5-quiltcad.pdf,jukiqc.jpg,tutorial pdt</14>
+  <15>EZ Basic Advanced,qct-pantograph-ez-basic-and-advanced.pdf,jukip.jpg,tutorial pdt</15>
+  <16>QuiltCAD Quilt Layout,quiltcad-quilt-layout-qct5.pdf,jukiqcl.jpg,tutorial pdt</16>
+  <17>Record,record.pdf,jukir.jpg,tutorial pdt</17>
+  <18>Select and Sew QCT5,select-and-sew-qct5.pdf,jukiss.jpg,tutorial pdt</18>
+  <19>Working with Zones,working-with-zones.pdf,jukiwwz.jpg,tutorial pdt</19>
+</TUTORIALS>
 
-#### VIDEOS
-- EMPTY
+<VIDEOS>
+  <0>Select and Sew,http://jukiquilting.com/e-learning/select-and-sew,jukiss.jpg</0>
+  <1>Pattern eClipse,http://jukiquilting.com/e-learning/pattern-eclipse,jukipe.jpg</1>
+  <2>Power Panto,http://jukiquilting.com/e-learning/qct5-power-panto,jukipp.jpg</2>
+</VIDEOS>
 
-#### DESIGNERS
-- EMPTY
+</JUKI>
+
+
+==========================================================================================
+
+<APQS>
+
+<HELP>
+  <0>3-Select and Sew Borders and Corners,3-Select and Sew How to Place and Sew Borders & Corners.pdf,panto3.jpg</0>
+  <1>EMPTY</1>
+  <2>EMPTY</2>
+  <3>Borders and Corners,Gold Access B and C.pdf,bandc.jpg,help pdh</3>
+  <4>PatternCAD,PatternCAD.pdf,pc.jpg,help pdh</4>
+  <5>Plug-Ins Batch Import,Plug-Ins Batch Import.pdf,bi.jpg,help pdh</5>
+  <6>Print and Record,Print and Record.pdf,pandr.jpg,help pdh</6>
+  <7>Zone Center Placement,Quick Guide for Center Placement Between Zones.pdf,center.jpg,help pdh</7>
+  <8>QuiltCAD,QuiltCAD.pdf,qc.jpg,help pdh</8>
+  <9>EMPTY</9>
+  <10>1-Select and Sew,1-Select and Sew Power Placement Screen and Functions.pdf,select1.jpg,help pdh</10>
+  <11>2-Select and Sew,2-Select and Sew Placement Methods How Too Place and Sew.pdf,select2.jpg,help pdh</11>
+  <12>1-Pantograph,1-Pantograph PantoStacker Screen Power Panto Mode.pdf,panto1.jpg,help pdh</12>
+  <13>2-Pantograph,2-Pantograph Power Panto Mode How to Place as a Single Pattern.pdf,panto2.jpg,help pdh</13>
+  <14>3-Pantograph,3-Pantograph Power Panto Mode How to Sew in Zones.pdf,panto3.jpg,help pdh</14>
+  <15>Quick Start Power Placement Block,Quick Start Power Placement Place and Sew a Block design.pdf,qs.jpg,help pdh</15>
+</HELP>
+
+<TUTORIALS>
+  <0>Batch Import,QCT5 Batch Import Tutorial.pdf,batch.jpg,tutorial pdt</0>
+  <1>Pattern Placement - Blocks,QCT5 Block Pattern Power Placement.pdf,pp.jpg,tutorial pdt</1>
+  <2>Borders and Corners,QCT5 Gold Access Borders and Corners Tutorial.pdf,gold bandc.jpg,tutorial pdt</2>
+  <3>Power Panto,QCT5 Pro Power Panto.pdf,ppp.jpg,tutorial pdt</3>
+  <4>Pattern eClipse,QCT5 Gold Access Pattern eClipse.pdf,eclipse.jpg,tutorial pdt</4>
+ </TUTORIALS>
+
+<VIDEOS>
+  <0>EMPTY</0>
+
+</VIDEOS>
+
+</APQS>
+
+<QMGEN2>
+
+<HELP>
+  <0>3-Select and Sew Borders and Corners,3-Select and Sew How to Place and Sew Borders & Corners.pdf,select3.jpg,help pdh</0>
+  <1>Downloading Gold Patterns,Downloading Gold Subscription Patterns.pdf,dsp.jpg,help pdh</1>
+  <2>Hoop Frame Zone Placement,Hoop frame Zone Placement.pdf,hf.jpg,help pdh</2>
+  <3>Edge to Edge,QCT 6 Quick Start Guide V1.1.pdf,e2e quick start.jpg,help pdh</3>
+  <4>QCT 6 Use Instructions,QCT 6 Use Instructions V1.1 23-11-28.pdf,ui.jpg,help pdh</4>
+  <5>Load Your Save Quickstart,Plus and Pro Load Your Save Quickstart V1.0.pdf,ls.jpg,help pdh</5>
+  <6>Save a Design and Zone Sewing Session,Plus and Pro Save a Design and Zone Sewing Session Quickstart V1.0.pdf,sd.jpg,help pdh</6>
+  <7>Pull Up the Bobbin Thread,Plus and Pro Pull Up the Bobbin Thread Quickstart V1.0.pdf,pbt.jpg,help pdh</7>
+  <8>Set Your Safe Area,Plus and Pro Set Your Safe Area Quickstart V1.0 1.pdf,sa.jpg,help pdh</8>
+  <9>Repair Pattern,Plus and Pro Use Repair Pattern Quickstart V1.0.pdf,rp.jpg,help pdh</9>
+  <10>Quilt a Pantograph Design,Pro Quilt a Pantograph Design Quickstart V1.0.pdf,qp.jpg,help pdh</10>
+ </HELP>
+
+<TUTORIALS>
+  <0>Batch Import,Batch Import QCT6.pdf,batchimport.jpg,tutorial pdt</0>
+  <1>Borders and Corners,QCT6 Gold Access Border and Corners Tutorial.pdf,bandc.jpg,tutorial pdt</1>
+  <2>Pattern eClipse,QCT6 Gold Access Pattern eClipse.pdf,patterneclipse.jpg,tutorial pdt</2>
+  <3>Hoop Frame Placement,Hoop frame Zone Placement.pdf,hoopframeplacement.jpg,tutorial pdt</3>
+  <4>QCT6 Gold Access Borders and corners,QCT6 Gold Access Border and Corners Tutorial.pdf,Borders and corners.jpg,tutorial pdt</4>
+  <5>QCT6 Gold Access Pattern eClipse,QCT6 Gold Access Pattern eClipse.pdf,Pattern eClipse.jpg,tutorial pdt</5>
+  <6>QCT6 One Row Panto,QCT6-One-Row-Panto-V6.00.43.pdf,edgetoedge.jpg,tutorial pdt</6>
+  <7>QCT6 Plus Nested Panto,QCT6-Plus-V.6.00.43-Nested-Panto-Tutorial-for-beginner.pdf,Nested Panto2.jpg,tutorial pdt</7>
+  <8>QCT6 Plus Non nested Panto,QCT6-Plus-V.6.00.43-Non-nested-Panto-Tutorial-for-beginner-with-quick-ref.pdf,Non nested   panto2.jpg,tutorial pdt</8>
+  <9>EZ Mode to sew within borders,QCT6-ProJ-V6.00.43-EZ-Mode-to-sew-within-borders-with-Quick-Ref.pdf,EZ mode.jpg,tutorial pdt</9>
+ <10>QCT6 Pro Power Panto,QCT6-Pro-Power-Panto_Version6.00.43-with-Quick-Ref.pdf,Power Panto.jpg,tutorial pdt</10>
+ <11>QCT6 Select and Sew,QCT6-Select-and-Sew-V6.00.43.pdf,Select and Sew.jpg,tutorial pdt</11>
+
+  </TUTORIALS>
+
+<VIDEOS>
+  <0>Firmware Update,https://www.youtube.com/watch?v=GsbV17eQ21w,fmupdate.jpg,videos</0>
+  <1>Unexpected Shutdown,https://www.youtube.com/watch?v=qwrHsMNCII8&t=8s,shutdown.jpg,videos</1>
+  <2>Janet George,https://www.youtube.com/user/dfgeorge/playlists,jg.jpg,videos</2>
+  <3>Lizzy Allen,https://thimbleandthread.com.au/tutorials,lizzya.jpg,videos</3>
+  <4>Leah Day,https://www.youtube.com/channel/UCkng_xb4HFUs4W4mZnuuqEg
+,ld.jpg,videos</4>
+  <5>Sandra Wibourne,https://www.youtube.com/channel/UCCA4XcufItH6wstZP09pNHA,sw.jpg,videos</5>
+  <6>Repair pattern,https://www.youtube.com/watch?v=x_PZk4aOZcE&t=51s,rp.jpg,videos</6>
+  <7>Etched,https://www.etchedtogether.com,etched.jpg,videos</7>
+  <8>Technical Support,https://www.youtube.com/playlist?list=PLOsL4S1ROjZCNrpSKkFkx8WjQA50I1R3u,ts.jpg,videos</8>
+  <9>QCT,https://www.youtube.com/playlist?list=PLOsL4S1ROjZDD_Dw43-zyM_hcBStLxuSn,qct.jpg,videos</9>
+  <10>USB,https://www.youtube.com/watch?v=NN7mgDhpgyQ&t=68s,usb.jpg,videos</10>
+</VIDEOS>
+
+<DESIGNERS>
+<0>Leah Day,https://leahday.com,leahday.jpg,designers</0>
+<1>Lizzy Allen,https://thimbleandthread.com.au,lizzya.jpg,designers</1>
+<2>House of Jackson,https://houseofjackson.com.au,hj.jpg,designers</2>
+<3>Quilting Pantographs,https://quiltingpantographs.com/,qp design.jpg,designers</3>
+</DESIGNERS>
+
+
+</QMGEN2>
+
+<NOLGEN2>
+
+<HELP>
+  <0>3-Select and Sew Borders and Corners,3-Select and Sew How to Place and Sew Borders & Corners.pdf,select3.jpg</0>
+  <1>Downloading Gold Patterns,Downloading Gold Subscription Patterns.pdf,dsp.jpg,help pdh</1>
+ 
+ </HELP>
+
+<TUTORIALS>
+  <0>Batch Import,Batch Import QCT6.pdf,batchimport.jpg,tutorial pdt</0>
+  <1>Borders and Corners,QCT6 Gold Access Border and Corners Tutorial.pdf,bandc.jpg,tutorial pdt</1>
+  <2>Pattern eClipse,QCT6 Gold Access Pattern eClipse.pdf,patterneclipse.jpg,tutorial pdt</2>
+  <3>QCT6 Gold Access Borders and corners,QCT6 Gold Access Border and Corners Tutorial.pdf,Borders and corners.jpg,tutorial pdt</3>
+  <4>QCT6 Gold Access Pattern eClipse,QCT6 Gold Access Pattern eClipse.pdf,Pattern eClipse.jpg,tutorial pdt</4>
+  <5>QCT6 Plus Nested Panto,QCT6-Plus-V.6.00.43-Nested-Panto-Tutorial-for-beginner.pdf,Nested Panto2.jpg,tutorial pdt</5>
+  <6>QCT6 Plus Non nested Panto,QCT6-Plus-V.6.00.43-Non-nested-Panto-Tutorial-for-beginner-with-quick-ref.pdf,Non nested   panto2.jpg,tutorial pdt</6>
+  <7>EZ Mode to sew within borders,QCT6-ProJ-V6.00.43-EZ-Mode-to-sew-within-borders-with-Quick-Ref.pdf,EZ mode.jpg,tutorial pdt</7>
+  <8>QCT6 Pro Power Panto,QCT6-Pro-Power-Panto_Version6.00.43-with-Quick-Ref.pdf,Power Panto.jpg,tutorial pdt</8>
+  <9>QCT6 Select and Sew,QCT6-Select-and-Sew-V6.00.43.pdf,Select and Sew.jpg,tutorial pdt</9>
+
+  </TUTORIALS>
+
+<VIDEOS>
+  <VIDEOS>
+  <0>EMPTY</0>
+  <1>EMPTY</1>
+</VIDEOS>
+
+
+<DESIGNERS>
+<0>Leah Day,https://leahday.com,leahday.jpg,designers</0>
+<1>Lizzy Allen,https://thimbleandthread.com.au,lizzya.jpg,designers</1>
+<2>House of Jackson,https://houseofjackson.com.au,hj.jpg,designers</2>
+<3>Quilting Pantographs,https://quiltingpantographs.com/,qp design.jpg,designers</3>
+</DESIGNERS>
+
+
+</NOLGEN2>
+
+<JUKIGEN2>
+
+<HELP>
+  <0>3-Select and Sew Borders and Corners,3-Select and Sew How to Place and Sew Borders & Corners.pdf,select3.jpg</0>
+  <1>Downloading Gold Patterns,Downloading Gold Subscription Patterns.pdf,dsp.jpg,help pdh</1>
+ 
+ </HELP>
+
+<TUTORIALS>
+  <0>Batch Import,Batch Import QCT6.pdf,batchimport.jpg,tutorial pdt</0>
+  <1>Borders and Corners,QCT6 Gold Access Border and Corners Tutorial.pdf,bandc.jpg,tutorial pdt</1>
+  <2>Pattern eClipse,QCT6 Gold Access Pattern eClipse.pdf,patterneclipse.jpg,tutorial pdt</2>
+  <3>QCT6 Gold Access Borders and corners,QCT6 Gold Access Border and Corners Tutorial.pdf,Borders and corners.jpg,tutorial pdt</3>
+  <4>QCT6 Gold Access Pattern eClipse,QCT6 Gold Access Pattern eClipse.pdf,Pattern eClipse.jpg,tutorial pdt</4>
+  <5>QCT6 Plus Nested Panto,QCT6-Plus-V.6.00.43-Nested-Panto-Tutorial-for-beginner.pdf,Nested Panto2.jpg,tutorial pdt</5>
+  <6>QCT6 Plus Non nested Panto,QCT6-Plus-V.6.00.43-Non-nested-Panto-Tutorial-for-beginner-with-quick-ref.pdf,Non nested   panto2.jpg,tutorial pdt</6>
+  <7>EZ Mode to sew within borders,QCT6-ProJ-V6.00.43-EZ-Mode-to-sew-within-borders-with-Quick-Ref.pdf,EZ mode.jpg,tutorial pdt</7>
+  <8>QCT6 Pro Power Panto,QCT6-Pro-Power-Panto_Version6.00.43-with-Quick-Ref.pdf,Power Panto.jpg,tutorial pdt</8>
+  <9>QCT6 Select and Sew,QCT6-Select-and-Sew-V6.00.43.pdf,Select and Sew.jpg,tutorial pdt</9>
+
+  </TUTORIALS>
+
+<VIDEOS>
+  <VIDEOS>
+  <0>EMPTY</0>
+  <1>EMPTY</1>
+</VIDEOS>
+
+
+<DESIGNERS>
+<0>Leah Day,https://leahday.com,leahday.jpg,designers</0>
+<1>Lizzy Allen,https://thimbleandthread.com.au,lizzya.jpg,designers</1>
+<2>House of Jackson,https://houseofjackson.com.au,hj.jpg,designers</2>
+<3>Quilting Pantographs,https://quiltingpantographs.com/,qp design.jpg,designers</3>
+</DESIGNERS>
+
+
+</JUKIGEN2>
+
+<APQSGEN2>
+
+<HELP>
+  <0>Basic,APQS Basics.pdf,apqsbasic.jpg</0>
+  <1>Borders,APQS Borders.pdf,apqsb.jpg,help pdh</1>
+  <2>Essentials Edge to Edge,APQS Essentials Edge to Edge.pdf,apqse2e.jpg,help pdh</2>
+  <3>Glossary,APQS Glossary.pdf,apqsg.jpg,help pdh</3>
+  <4>How Your Quilt Path Works,APQS How Your Quilt Path Works.pdf,apqsw.jpg,help pdh</4>
+  <5>Pantograph,APQS Pantograph.pdf,apqsp.jpg,help pdh</5>
+  <6>Pattern Placement,APQS Pattern Placement.pdf,apqspp.jpg,help pdh</6>
+  <7>PatternCAD,APQS PatternCAD.pdf,apqspc.jpg,help pdh</7>
+  <8>QuiltCAD,APQS QuiltCAD.pdf,apqsqc.jpg,help pdh</8>
+  <9>Record,APQS Record.pdf,apqsr.jpg,help pdh</9>  
+  <10>What's New for v6,APQS What's New for v6.pdf,apqsv6.jpg,help pdh</10>
+  
+ </HELP>
+
+<TUTORIALS>
+  <0>EMPTY</0>
+  <1>EMPTY</1>
+  </TUTORIALS>
+
+<VIDEOS>
+  <VIDEOS>
+  <0>EMPTY</0>
+  <1>EMPTY</1>
+</VIDEOS>
+
+<DESIGNERS>
+  <0>EMPTY</0>
+  <1>EMPTY</1>
+</DESIGNERS>
+
+
+</APQSGEN2>
+
+
+
+
+
+
+
+

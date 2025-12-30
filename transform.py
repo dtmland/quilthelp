@@ -12,107 +12,97 @@ from datetime import datetime
 
 
 class HelpIndexTransformer:
-    """Transform pseudo-markup HelpIndex.txt to HTML"""
+    """Transform XML-like HelpIndex.txt to HTML"""
     
     # Configuration constants
-    MIN_COMMON_WORDS = 2  # Minimum word overlap for PDF matching
     SECTION_ORDER = ['HELP', 'TUTORIALS', 'VIDEOS', 'DESIGNERS']
     
-    def __init__(self, help_index_path, newlisting_path, images_dir, extras_dir):
+    # Directory mappings based on listing.txt
+    PDF_DIRS = {
+        'help pdh': 'Extras/Help/Help',
+        'tutorial pdt': 'Extras/Help/Tutorials',
+    }
+    IMAGE_DIR = 'images'
+    
+    def __init__(self, help_index_path):
         self.help_index_path = Path(help_index_path)
-        self.newlisting_path = Path(newlisting_path)
-        self.images_dir = Path(images_dir)
-        self.extras_dir = Path(extras_dir)
-        
-        self.image_map = {}
-        self.pdf_map = {}
         self.referenced_files = []
         
-    def load_newlisting(self):
-        """Parse newlisting.txt for image and PDF mappings"""
-        if not self.newlisting_path.exists():
-            print(f"Warning: {self.newlisting_path} not found")
-            return
-            
-        with open(self.newlisting_path, 'r', encoding='utf-8') as f:
-            for line in f:
-                line = line.strip()
-                if not line or line.startswith('#'):
-                    continue
-                    
-                if ':' in line:
-                    path, description = line.split(':', 1)
-                    path = path.strip()
-                    description = description.strip()
-                    
-                    if path.startswith('images/'):
-                        self.image_map[description] = path
-                    elif path.startswith('Extras/'):
-                        self.pdf_map[description] = path
-                        
     def parse_help_index(self):
-        """Parse HelpIndex.txt and organize content by brand/category"""
+        """Parse HelpIndex.txt and organize content by brand/section"""
         if not self.help_index_path.exists():
             raise FileNotFoundError(f"{self.help_index_path} not found")
             
-        brands = defaultdict(lambda: defaultdict(lambda: defaultdict(list)))
+        brands = defaultdict(lambda: defaultdict(list))
         current_brand = None
-        current_category = None
         current_section = None
         
         with open(self.help_index_path, 'r', encoding='utf-8') as f:
             for line in f:
                 line = line.strip()
                 
-                # Check for headers
-                if line.startswith('## BRAND:'):
-                    current_brand = line.replace('## BRAND:', '').strip()
-                    continue
-                elif line.startswith('### CATEGORY:'):
-                    current_category = line.replace('### CATEGORY:', '').strip()
-                    continue
-                elif line.startswith('#### '):
-                    current_section = line.replace('####', '').strip()
-                    continue
-                
-                # Skip empty lines and comments
-                if not line or line.startswith('#'):
+                # Check for section markers FIRST (e.g., <HELP>, <TUTORIALS>)
+                section_match = re.match(r'^<(HELP|TUTORIALS|VIDEOS|DESIGNERS)>$', line)
+                if section_match:
+                    current_section = section_match.group(1)
                     continue
                     
-                # Parse content items
-                if line.startswith('- ') and current_brand and current_category and current_section:
-                    item = line[2:].strip()
-                    if item and item.upper() != 'EMPTY':
-                        brands[current_brand][current_category][current_section].append(item)
+                # Check for closing section marker
+                if re.match(r'^</(HELP|TUTORIALS|VIDEOS|DESIGNERS)>$', line):
+                    current_section = None
+                    continue
+                
+                # Check for brand markers (e.g., <QUILTMOTION>, <NOLTING>)
+                brand_match = re.match(r'^<([A-Z]+[A-Z0-9]*)>$', line)
+                if brand_match:
+                    current_brand = brand_match.group(1)
+                    continue
+                    
+                # Check for closing brand marker
+                if re.match(r'^</[A-Z]+[A-Z0-9]*>$', line):
+                    current_brand = None
+                    continue
+                
+                # Parse content items: <number>Title,Resource,Image,Category</number>
+                if current_brand and current_section:
+                    item_match = re.match(r'<(\d+)>(.*?)</\1>$', line)
+                    if item_match:
+                        content = item_match.group(2).strip()
+                        if content and content.upper() != 'EMPTY':
+                            parts = [p.strip() for p in content.split(',')]
+                            if len(parts) >= 2:
+                                item = {
+                                    'title': parts[0],
+                                    'resource': parts[1],  # PDF filename or URL
+                                    'image': parts[2] if len(parts) > 2 else '',
+                                    'category': parts[3] if len(parts) > 3 else ''
+                                }
+                                brands[current_brand][current_section].append(item)
                         
         return brands
         
-    def find_pdf_for_item(self, item):
-        """Find the PDF path for a given item"""
-        # Try exact match first
-        if item in self.pdf_map:
-            return self.pdf_map[item]
-            
-        # Try fuzzy matching - normalize and compare key parts
-        item_lower = item.lower()
-        item_words = set(re.findall(r'\w+', item_lower))
+    def get_resource_path(self, item):
+        """Get the full path to a resource (PDF or URL)"""
+        resource = item['resource']
+        category = item['category']
         
-        best_match = None
-        best_score = 0
-        
-        for description, pdf_path in self.pdf_map.items():
-            desc_lower = description.lower()
-            desc_words = set(re.findall(r'\w+', desc_lower))
+        # Check if it's a URL
+        if resource.startswith('http'):
+            return resource
             
-            # Calculate word overlap
-            common_words = item_words & desc_words
-            if len(common_words) >= self.MIN_COMMON_WORDS:
-                score = len(common_words)
-                if score > best_score:
-                    best_score = score
-                    best_match = pdf_path
-                    
-        return best_match
+        # Get the directory based on category
+        pdf_dir = self.PDF_DIRS.get(category, 'Extras/Help/Help')
+        full_path = f"{pdf_dir}/{resource}"
+        
+        self.referenced_files.append(full_path)
+        return full_path
+        
+    def get_image_path(self, item):
+        """Get the full path to an image"""
+        image = item['image']
+        if image:
+            return f"{self.IMAGE_DIR}/{image}"
+        return None
         
     def generate_html(self, brands):
         """Generate the HTML output with grid/card layout"""
@@ -179,16 +169,6 @@ class HelpIndexTransformer:
             margin-bottom: 20px;
             padding-bottom: 10px;
             border-bottom: 3px solid #3498db;
-        }
-        
-        .category-section {
-            margin-bottom: 30px;
-        }
-        
-        .category-title {
-            color: #2c3e50;
-            font-size: 1.5em;
-            margin-bottom: 15px;
         }
         
         .section-grid {
@@ -267,6 +247,11 @@ class HelpIndexTransformer:
             font-weight: bold;
         }
         
+        .video-icon {
+            color: #9b59b6;
+            font-weight: bold;
+        }
+        
         footer {
             background: white;
             padding: 20px;
@@ -301,75 +286,64 @@ class HelpIndexTransformer:
 ''')
         
         # Generate content for each brand
-        for brand, categories in sorted(brands.items()):
+        for brand, sections in sorted(brands.items()):
+            # Format brand name for display
+            brand_display = brand.replace('GEN2', ' Gen 2').replace('APQSGEN2', 'APQS Gen 2')
+            brand_display = brand_display.title() if brand_display.isupper() else brand_display
+            
             html_parts.append(f'''
         <div class="brand-section">
-            <h2 class="brand-title">{html.escape(brand)}</h2>
+            <h2 class="brand-title">{html.escape(brand_display)}</h2>
+            <div class="section-grid">
 ''')
             
-            for category, sections in sorted(categories.items()):
+            # Section icons
+            section_icons = {
+                'HELP': '📖',
+                'TUTORIALS': '🎓',
+                'VIDEOS': '🎥',
+                'DESIGNERS': '✨'
+            }
+            
+            for section_name in self.SECTION_ORDER:
+                items = sections.get(section_name, [])
+                if not items:
+                    continue
+                    
+                section_class = section_name.lower()
+                icon = section_icons.get(section_name, '📄')
+                
                 html_parts.append(f'''
-            <div class="category-section">
-                <h3 class="category-title">{html.escape(category)}</h3>
-                <div class="section-grid">
+                <div class="section-card {section_class}">
+                    <div class="section-header {section_class}">
+                        <span class="icon">{icon}</span>
+                        <span>{section_name}</span>
+                    </div>
+                    <ul class="item-list">
 ''')
                 
-                # Section icons
-                section_icons = {
-                    'HELP': '📖',
-                    'TUTORIALS': '🎓',
-                    'VIDEOS': '🎥',
-                    'DESIGNERS': '✨'
-                }
-                
-                for section_name in self.SECTION_ORDER:
-                    items = sections.get(section_name, [])
-                    if not items:
-                        continue
-                        
-                    section_class = section_name.lower()
-                    icon = section_icons.get(section_name, '📄')
+                for item in items:
+                    title = item['title']
+                    resource_path = self.get_resource_path(item)
+                    is_video = resource_path.startswith('http')
+                    icon_html = '<span class="video-icon">🎥</span>' if is_video else '<span class="pdf-icon">📄</span>'
                     
                     html_parts.append(f'''
-                    <div class="section-card {section_class}">
-                        <div class="section-header {section_class}">
-                            <span class="icon">{icon}</span>
-                            <span>{section_name}</span>
-                        </div>
-                        <ul class="item-list">
-''')
-                    
-                    for item in items:
-                        pdf_path = self.find_pdf_for_item(item)
-                        
-                        if pdf_path:
-                            self.referenced_files.append(pdf_path)
-                            html_parts.append(f'''
-                            <li>
-                                <a href="{html.escape(pdf_path, quote=True)}" class="item-link" target="_blank">
-                                    <span class="pdf-icon">📄</span>
-                                    <span>{html.escape(item)}</span>
-                                </a>
-                            </li>
-''')
-                        else:
-                            html_parts.append(f'''
-                            <li>
-                                <span>{html.escape(item)}</span>
-                            </li>
-''')
-                    
-                    html_parts.append('''
-                        </ul>
-                    </div>
+                        <li>
+                            <a href="{html.escape(resource_path, quote=True)}" class="item-link" target="_blank">
+                                {icon_html}
+                                <span>{html.escape(title)}</span>
+                            </a>
+                        </li>
 ''')
                 
                 html_parts.append('''
+                    </ul>
                 </div>
-            </div>
 ''')
             
             html_parts.append('''
+            </div>
         </div>
 ''')
         
@@ -403,9 +377,6 @@ class HelpIndexTransformer:
         
     def transform(self, output_html='index.html', output_checklist='file-checklist.txt'):
         """Main transformation process"""
-        print("Loading resource mappings from newlisting.txt...")
-        self.load_newlisting()
-        
         print("Parsing HelpIndex.txt...")
         brands = self.parse_help_index()
         
@@ -435,10 +406,7 @@ def main():
     base_dir = Path(__file__).parent
     
     transformer = HelpIndexTransformer(
-        help_index_path=base_dir / 'HelpIndex.txt',
-        newlisting_path=base_dir / 'newlisting.txt',
-        images_dir=base_dir / 'images',
-        extras_dir=base_dir / 'Extras'
+        help_index_path=base_dir / 'HelpIndex.txt'
     )
     
     transformer.transform(

@@ -1,0 +1,77 @@
+ls -R
+.:
+ Extras images HelpIndex.txt
+
+./Extras:
+Help
+
+./Extras/Help:
+Help  Tutorials
+
+./Extras/Help/Help:
+'1-Pantograph PantoStacker Screen Power Panto Mode.pdf'
+'1-Select & Sew Power Placement Screen & Functions.pdf'
+'2-Pantograph Power Panto Mode How to Place as a Single Pattern.pdf'
+'2-Select & Sew Placement Methods How Too Place and Sew.pdf'
+'3-Pantograph Power Panto Mode How to Sew in Zones.pdf'
+'3-Select & Sew How to Place & Sew Borders & Corners.pdf'
+'4 point zone placement.pdf'
+'Borders & Corners Using Select & Sew & Pantograph.pdf'
+'Downloading Gold Subscription Patterns.pdf'
+'EZ Mode how to set up design.pdf'
+'Gold Access B and C.pdf'
+'Gold Features Borders and Corners - Hoop Frame.pdf'
+'Gold Multi-Placement.pdf'
+'Home Screen Record Feature How too.pdf'
+'Hoop frame Zone Placement.pdf'
+'How to loosen belts for freemotion quilting.pdf'
+'Marking tool.pdf'
+'Pantograph Basic Mode Place as a Single Pattern Complete with Functions.pdf'
+'Pantograph Basic Mode Sew in Zones Complete with functions.pdf'
+'Pantograph Basic Mode place as a Single Pattern.pdf'
+'Pantograph Basic mode Functions.pdf'
+'Pantograph EZ Mode Functions.pdf'
+'Pantograph EZ Mode Place as a single pattern complet with functions.pdf'
+'Pantograph EZ Mode Sew in Zone Complete functions.pdf'
+'Pantograph PantoStacker Screen Upper Buttons Tools & Functions.pdf'
+'Pantograph Power Panto Mode Sew in Zones Center Placement Rolling Frame.pdf'
+'Pantograph Power Panto Mode Sew in Zones Hoop Frame.pdf'
+'Pantograph Power Panto Mode.pdf'
+'Pantograph Quilting Interface Screen Buttons and Functions.pdf'
+'Pattern Eclipse Keep In.pdf'
+'Pattern eClipse edge to edge design.pdf'
+ PatternCAD.pdf
+'Plug-Ins Batch Import.pdf'
+'Power Panto Mode Hoop frame Edge to Edge Quilt Process.pdf'
+'Print and Record.pdf'
+'Quick Guide for Center Placement Between Zones.pdf'
+'Quick Start Basic Sew in Zones Rolling Frame Edge to Edge.pdf'
+'Quick Start Power Placement Place & Sew a Block design - Copy.pdf'
+'Quick Start Power Placement Place & Sew a Block design.pdf'
+ QuiltCAD.pdf
+'QuiltMotion QCT 5 Beginnings Borders & Corners.pdf'
+'QuiltMotion QCT 5 Beginnings Borders & Edge to Edge design.pdf'
+'QuiltMotion QCT 5 Beginnings Edge to Edge Design on Hoop frame.pdf'
+'QuiltMotion QCT 5 Beginnings Home Screen and Select & Sew.pdf'
+'QuiltMotion QCT 5 Beginnings Pantogaraph Sew in Zones Rolling frame.pdf'
+'QuiltMotion QCT 5 Beginnings Sew in Zones Rolling frame Center placement.pdf'
+'QuiltMotion QCT5 Home Screen & Help Buttons & Functions.pdf'
+'Quilting Interface Screen Select & Sew Plus Place as a Single Pattern.pdf'
+'Quilting interface Screen Buttons and Functions.pdf'
+'Resume Sewing & Repair Pattern for Hoop frame.pdf'
+'Resume zone sewing session.pdf'
+'Select & Sew Placement Block Methods How to Place (2).pdf'
+'Select & Sew Power Placement Tools Buttons & functions.pdf'
+'Select & Sew using Pantograph Borders & Corners.pdf'
+'Sew in Zones Center Placement Using Power Panto Mode.pdf'
+'Staggering QCT 5 Power Panto,  EZ & Basic Modes.pdf'
+'Updating and Installing Online Updates.pdf'
+
+./Extras/Help/Tutorials:
+'QCT5 Batch Import Tutorial.pdf'                              'QCT5 Block Pattern Power Placement.pdf'
+'QCT5 Beginnings Nested Panto Tutorial for beginner.pdf'      'QCT5 Gold Access Borders and Corners Tutorial.pdf'
+'QCT5 Beginnings Non nested Panto Tutorial for beginner.pdf'  'QCT5 Gold Access Pattern eClipse.pdf'
+'QCT5 Beginnings Panto Upgrade Info from QCT4.pdf'            'QCT5 Pro Power Panto.pdf'
+
+./images:
+ dsp.jpg  'e2e quick start.jpg'   hf.jpg   ls.jpg   pbt.jpg   qp.jpg   rp.jpg   sa.jpg   sd.jpg   select3.jpg   ui.jpg
