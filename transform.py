@@ -9,6 +9,7 @@ import html
 from pathlib import Path
 from collections import defaultdict
 from datetime import datetime
+from urllib.parse import quote
 
 
 class HelpIndexTransformer:
@@ -440,8 +441,8 @@ class HelpIndexTransformer:
                         html_parts.append(f'''
                             <li>
                                 <div class="item-content">
-                                    <img src="{html.escape(image_path, quote=True)}" alt="{html.escape(title)}" class="item-image" onerror="this.style.display='none'">
-                                    <a href="{html.escape(resource_path, quote=True)}" class="item-link" target="_blank">
+                                    <img src="{quote(image_path)}" alt="{html.escape(title)}" class="item-image" onerror="this.style.display='none'">
+                                    <a href="{quote(resource_path)}" class="item-link" target="_blank">
                                         {icon_html}
                                         <span>{html.escape(title)}</span>
                                     </a>
@@ -451,7 +452,7 @@ class HelpIndexTransformer:
                     else:
                         html_parts.append(f'''
                             <li>
-                                <a href="{html.escape(resource_path, quote=True)}" class="item-link" target="_blank">
+                                <a href="{quote(resource_path)}" class="item-link" target="_blank">
                                     {icon_html}
                                     <span>{html.escape(title)}</span>
                                 </a>
