@@ -14,6 +14,10 @@ from datetime import datetime
 class HelpIndexTransformer:
     """Transform pseudo-markup HelpIndex.txt to HTML"""
     
+    # Configuration constants
+    MIN_COMMON_WORDS = 2  # Minimum word overlap for PDF matching
+    SECTION_ORDER = ['HELP', 'TUTORIALS', 'VIDEOS', 'DESIGNERS']
+    
     def __init__(self, help_index_path, newlisting_path, images_dir, extras_dir):
         self.help_index_path = Path(help_index_path)
         self.newlisting_path = Path(newlisting_path)
@@ -102,7 +106,7 @@ class HelpIndexTransformer:
             
             # Calculate word overlap
             common_words = item_words & desc_words
-            if len(common_words) >= 2:  # At least 2 words in common
+            if len(common_words) >= self.MIN_COMMON_WORDS:
                 score = len(common_words)
                 if score > best_score:
                     best_score = score
@@ -318,7 +322,7 @@ class HelpIndexTransformer:
                     'DESIGNERS': '✨'
                 }
                 
-                for section_name in ['HELP', 'TUTORIALS', 'VIDEOS', 'DESIGNERS']:
+                for section_name in self.SECTION_ORDER:
                     items = sections.get(section_name, [])
                     if not items:
                         continue
@@ -389,7 +393,8 @@ class HelpIndexTransformer:
         checklist.append(f"Generated: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n")
         checklist.append(f"Total Files: {len(self.referenced_files)}\n\n")
         
-        for i, pdf_path in enumerate(sorted(set(self.referenced_files)), 1):
+        unique_files = sorted(set(self.referenced_files))
+        for i, pdf_path in enumerate(unique_files, 1):
             exists = Path(pdf_path).exists()
             status = "✓" if exists else "✗"
             checklist.append(f"{status} {i}. {pdf_path}\n")
