@@ -1,0 +1,75 @@
+# QUILT HELP INDEX
+
+## BRAND: Janome
+
+### CATEGORY: Memory Craft Series
+
+#### HELP
+- MC6700P: Getting Started Guide
+- MC9900: Threading Instructions
+- MC15000: Maintenance Tips
+
+#### TUTORIALS
+- MC6700P: Basic Embroidery Tutorial
+- MC9900: Advanced Stitching Techniques
+
+#### VIDEOS
+- MC15000: Setup and Configuration
+- MC9900: Troubleshooting Common Issues
+
+#### DESIGNERS
+- Designer V5: Installing Fonts
+- Designer V6: Creating Custom Patterns
+
+## BRAND: Brother
+
+### CATEGORY: Innov-is Series
+
+#### HELP
+- Innov-is NV800E: User Manual Quick Reference
+- Innov-is XV8500D: Feature Overview
+
+#### TUTORIALS
+- Innov-is NV800E: First Project Guide
+- EMPTY
+
+#### VIDEOS
+- Innov-is XV8500D: Advanced Features Demo
+
+#### DESIGNERS
+- EMPTY
+
+## BRAND: Bernina
+
+### CATEGORY: 7 Series
+
+#### HELP
+- Bernina 770 QE: Quick Start
+- Bernina 790: Accessory Guide
+
+#### TUTORIALS
+- Bernina 770 QE: Quilting Basics
+- Bernina 790: Free Motion Quilting
+
+#### VIDEOS
+- Bernina 770 QE: BSR Feature Tutorial
+
+#### DESIGNERS
+- EMPTY
+
+## BRAND: Singer
+
+### CATEGORY: Quantum Series
+
+#### HELP
+- Quantum Stylist 9985: Setup Guide
+- EMPTY
+
+#### TUTORIALS
+- Quantum Stylist 9985: Buttonhole Techniques
+
+#### VIDEOS
+- EMPTY
+
+#### DESIGNERS
+- EMPTY

@@ -1,0 +1,33 @@
+# Image Mappings
+images/janome-mc6700p.jpg: Janome Memory Craft MC6700P
+images/janome-mc9900.jpg: Janome Memory Craft MC9900
+images/janome-mc15000.jpg: Janome Memory Craft MC15000
+images/janome-designer-v5.jpg: Janome Designer V5
+images/janome-designer-v6.jpg: Janome Designer V6
+images/brother-nv800e.jpg: Brother Innov-is NV800E
+images/brother-xv8500d.jpg: Brother Innov-is XV8500D
+images/bernina-770qe.jpg: Bernina 770 QE
+images/bernina-790.jpg: Bernina 790
+images/singer-quantum-9985.jpg: Singer Quantum Stylist 9985
+
+# PDF References in Extras folder
+Extras/janome-mc6700p-getting-started.pdf: MC6700P Getting Started Guide
+Extras/janome-mc9900-threading.pdf: MC9900 Threading Instructions
+Extras/janome-mc15000-maintenance.pdf: MC15000 Maintenance Tips
+Extras/janome-mc6700p-embroidery-tutorial.pdf: MC6700P Basic Embroidery Tutorial
+Extras/janome-mc9900-stitching.pdf: MC9900 Advanced Stitching Techniques
+Extras/janome-mc15000-setup-video.pdf: MC15000 Setup and Configuration
+Extras/janome-mc9900-troubleshooting.pdf: MC9900 Troubleshooting Common Issues
+Extras/janome-designer-v5-fonts.pdf: Designer V5 Installing Fonts
+Extras/janome-designer-v6-patterns.pdf: Designer V6 Creating Custom Patterns
+Extras/brother-nv800e-manual.pdf: Innov-is NV800E User Manual Quick Reference
+Extras/brother-xv8500d-features.pdf: Innov-is XV8500D Feature Overview
+Extras/brother-nv800e-first-project.pdf: Innov-is NV800E First Project Guide
+Extras/brother-xv8500d-demo.pdf: Innov-is XV8500D Advanced Features Demo
+Extras/bernina-770qe-quickstart.pdf: Bernina 770 QE Quick Start
+Extras/bernina-790-accessories.pdf: Bernina 790 Accessory Guide
+Extras/bernina-770qe-quilting-basics.pdf: Bernina 770 QE Quilting Basics
+Extras/bernina-790-free-motion.pdf: Bernina 790 Free Motion Quilting
+Extras/bernina-770qe-bsr.pdf: Bernina 770 QE BSR Feature Tutorial
+Extras/singer-quantum-9985-setup.pdf: Quantum Stylist 9985 Setup Guide
+Extras/singer-quantum-9985-buttonhole.pdf: Quantum Stylist 9985 Buttonhole Techniques

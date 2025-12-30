@@ -1,0 +1,24 @@
+# Referenced Files Checklist
+Generated: 2025-12-30 20:16:12
+Total Files: 20
+
+✓ 1. Extras/bernina-770qe-bsr.pdf
+✓ 2. Extras/bernina-770qe-quickstart.pdf
+✓ 3. Extras/bernina-770qe-quilting-basics.pdf
+✓ 4. Extras/bernina-790-accessories.pdf
+✓ 5. Extras/bernina-790-free-motion.pdf
+✓ 6. Extras/brother-nv800e-first-project.pdf
+✓ 7. Extras/brother-nv800e-manual.pdf
+✓ 8. Extras/brother-xv8500d-demo.pdf
+✓ 9. Extras/brother-xv8500d-features.pdf
+✓ 10. Extras/janome-designer-v5-fonts.pdf
+✓ 11. Extras/janome-designer-v6-patterns.pdf
+✓ 12. Extras/janome-mc15000-maintenance.pdf
+✓ 13. Extras/janome-mc15000-setup-video.pdf
+✓ 14. Extras/janome-mc6700p-embroidery-tutorial.pdf
+✓ 15. Extras/janome-mc6700p-getting-started.pdf
+✓ 16. Extras/janome-mc9900-stitching.pdf
+✓ 17. Extras/janome-mc9900-threading.pdf
+✓ 18. Extras/janome-mc9900-troubleshooting.pdf
+✓ 19. Extras/singer-quantum-9985-buttonhole.pdf
+✓ 20. Extras/singer-quantum-9985-setup.pdf
