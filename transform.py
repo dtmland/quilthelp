@@ -5,6 +5,7 @@ Generates a grid/card layout with a light theme, organized by brand and category
 """
 
 import re
+import html
 from pathlib import Path
 from collections import defaultdict
 from datetime import datetime
@@ -299,13 +300,13 @@ class HelpIndexTransformer:
         for brand, categories in sorted(brands.items()):
             html_parts.append(f'''
         <div class="brand-section">
-            <h2 class="brand-title">{brand}</h2>
+            <h2 class="brand-title">{html.escape(brand)}</h2>
 ''')
             
             for category, sections in sorted(categories.items()):
                 html_parts.append(f'''
             <div class="category-section">
-                <h3 class="category-title">{category}</h3>
+                <h3 class="category-title">{html.escape(category)}</h3>
                 <div class="section-grid">
 ''')
                 
@@ -341,16 +342,16 @@ class HelpIndexTransformer:
                             self.referenced_files.append(pdf_path)
                             html_parts.append(f'''
                             <li>
-                                <a href="{pdf_path}" class="item-link" target="_blank">
+                                <a href="{html.escape(pdf_path, quote=True)}" class="item-link" target="_blank">
                                     <span class="pdf-icon">📄</span>
-                                    <span>{item}</span>
+                                    <span>{html.escape(item)}</span>
                                 </a>
                             </li>
 ''')
                         else:
                             html_parts.append(f'''
                             <li>
-                                <span>{item}</span>
+                                <span>{html.escape(item)}</span>
                             </li>
 ''')
                     
