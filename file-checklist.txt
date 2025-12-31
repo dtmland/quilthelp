@@ -1,0 +1,95 @@
+# Referenced Files Checklist
+Generated: 2025-12-30 22:15:20
+Total Files: 256
+
+✗ 1. Extras/Help/Help/1-Pantograph PantoStacker Screen Power Panto Mode.pdf
+✗ 2. Extras/Help/Help/1-Select and Sew Power Placement Screen and Functions.pdf
+✗ 3. Extras/Help/Help/2-Pantograph Power Panto Mode How to Place as a Single Pattern.pdf
+✗ 4. Extras/Help/Help/2-Select and Sew Placement Methods How Too Place and Sew.pdf
+✗ 5. Extras/Help/Help/3-Pantograph Power Panto Mode How to Sew in Zones.pdf
+✗ 6. Extras/Help/Help/3-Select and Sew How to Place and Sew Borders & Corners.pdf
+✗ 7. Extras/Help/Help/4 point zone placement.pdf
+✗ 8. Extras/Help/Help/APQS Basics.pdf
+✗ 9. Extras/Help/Help/APQS Borders.pdf
+✗ 10. Extras/Help/Help/APQS Essentials Edge to Edge.pdf
+✗ 11. Extras/Help/Help/APQS Glossary.pdf
+✗ 12. Extras/Help/Help/APQS How Your Quilt Path Works.pdf
+✗ 13. Extras/Help/Help/APQS Pantograph.pdf
+✗ 14. Extras/Help/Help/APQS Pattern Placement.pdf
+✗ 15. Extras/Help/Help/APQS PatternCAD.pdf
+✗ 16. Extras/Help/Help/APQS QuiltCAD.pdf
+✗ 17. Extras/Help/Help/APQS Record.pdf
+✗ 18. Extras/Help/Help/APQS What's New for v6.pdf
+✗ 19. Extras/Help/Help/Borders & Corners Using Select & Sew & Pantograph.pdf
+✗ 20. Extras/Help/Help/Downloading Gold Subscription Patterns.pdf
+✗ 21. Extras/Help/Help/EZ Mode how to set up design.pdf
+✗ 22. Extras/Help/Help/Gold Access B and C.pdf
+✗ 23. Extras/Help/Help/Gold Features Borders and Corners - Hoop Frame.pdf
+✗ 24. Extras/Help/Help/Gold Multi-Placement.pdf
+✗ 25. Extras/Help/Help/Home Screen Record Feature How too.pdf
+✗ 26. Extras/Help/Help/Hoop frame Zone Placement.pdf
+✗ 27. Extras/Help/Help/Marking tool.pdf
+✗ 28. Extras/Help/Help/Pantograph Basic Mode place as a Single Pattern.pdf
+✗ 29. Extras/Help/Help/Pantograph PantoStacker Screen Upper Buttons Tools & Functions.pdf
+✗ 30. Extras/Help/Help/Pantograph Power Panto Mode Sew in Zones Center Placement Rolling Frame.pdf
+✗ 31. Extras/Help/Help/Pantograph Power Panto Mode Sew in Zones Hoop Frame.pdf
+✗ 32. Extras/Help/Help/Pantograph Power Panto Mode.pdf
+✗ 33. Extras/Help/Help/Pantograph Quilting Interface Screen Buttons and Functions.pdf
+✗ 34. Extras/Help/Help/Pattern Eclipse Keep In.pdf
+✗ 35. Extras/Help/Help/Pattern eClipse edge to edge design.pdf
+✗ 36. Extras/Help/Help/PatternCAD.pdf
+✗ 37. Extras/Help/Help/Plug-Ins Batch Import.pdf
+✗ 38. Extras/Help/Help/Plus and Pro Load Your Save Quickstart V1.0.pdf
+✗ 39. Extras/Help/Help/Plus and Pro Pull Up the Bobbin Thread Quickstart V1.0.pdf
+✗ 40. Extras/Help/Help/Plus and Pro Save a Design and Zone Sewing Session Quickstart V1.0.pdf
+✗ 41. Extras/Help/Help/Plus and Pro Set Your Safe Area Quickstart V1.0 1.pdf
+✗ 42. Extras/Help/Help/Plus and Pro Use Repair Pattern Quickstart V1.0.pdf
+✗ 43. Extras/Help/Help/Print and Record.pdf
+✗ 44. Extras/Help/Help/Pro Quilt a Pantograph Design Quickstart V1.0.pdf
+✗ 45. Extras/Help/Help/QCT 6 Quick Start Guide V1.1.pdf
+✗ 46. Extras/Help/Help/QCT 6 Use Instructions V1.1 23-11-28.pdf
+✗ 47. Extras/Help/Help/Quick Guide for Center Placement Between Zones.pdf
+✗ 48. Extras/Help/Help/Quick Start Power Placement Place and Sew a Block design.pdf
+✗ 49. Extras/Help/Help/QuiltCAD.pdf
+✗ 50. Extras/Help/Help/QuiltMotion QCT 5 Beginnings Borders & Edge to Edge design.pdf
+✗ 51. Extras/Help/Help/QuiltMotion QCT 5 Beginnings Sew in Zones Rolling frame Center placement.pdf
+✗ 52. Extras/Help/Help/QuiltMotion QCT5 Home Screen & Help Buttons & Functions.pdf
+✗ 53. Extras/Help/Help/Quilting Interface Screen Select & Sew Plus Place as a Single Pattern.pdf
+✗ 54. Extras/Help/Help/Quilting interface Screen Buttons and Functions.pdf
+✗ 55. Extras/Help/Help/Resume Sewing & Repair Pattern for Hoop frame.pdf
+✗ 56. Extras/Help/Help/Select & Sew Placement Block Methods How to Place.pdf
+✗ 57. Extras/Help/Help/Select & Sew Power Placement Tools Buttons & functions.pdf
+✗ 58. Extras/Help/Help/Select & Sew using Pantograph Borders & Corners.pdf
+✗ 59. Extras/Help/Help/Sew in Zones Center Placement Using Power Panto Mode.pdf
+✗ 60. Extras/Help/Help/Staggering QCT 5 Power Panto EZ&Basic Modes.pdf
+✗ 61. Extras/Help/Help/Updating and Installing Online Updates.pdf
+✗ 62. Extras/Help/Tutorials/Batch Import QCT6.pdf
+✗ 63. Extras/Help/Tutorials/Hoop frame Zone Placement.pdf
+✗ 64. Extras/Help/Tutorials/QCT5 Batch Import Tutorial.pdf
+✗ 65. Extras/Help/Tutorials/QCT5 Beginnings Nested Panto Tutorial for beginner.pdf
+✗ 66. Extras/Help/Tutorials/QCT5 Beginnings Non-nested Panto Tutorial for beginner.pdf
+✗ 67. Extras/Help/Tutorials/QCT5 Beginnings Panto Upgrade Info from QCT4.pdf
+✗ 68. Extras/Help/Tutorials/QCT5 Block Pattern Power Placement.pdf
+✗ 69. Extras/Help/Tutorials/QCT5 Gold Access Borders and Corners Tutorial.pdf
+✗ 70. Extras/Help/Tutorials/QCT5 Gold Access Pattern eClipse.pdf
+✗ 71. Extras/Help/Tutorials/QCT5 Pro Power Panto.pdf
+✗ 72. Extras/Help/Tutorials/QCT6 Gold Access Border and Corners Tutorial.pdf
+✗ 73. Extras/Help/Tutorials/QCT6 Gold Access Pattern eClipse.pdf
+✗ 74. Extras/Help/Tutorials/QCT6-One-Row-Panto-V6.00.43.pdf
+✗ 75. Extras/Help/Tutorials/QCT6-Plus-V.6.00.43-Nested-Panto-Tutorial-for-beginner.pdf
+✗ 76. Extras/Help/Tutorials/QCT6-Plus-V.6.00.43-Non-nested-Panto-Tutorial-for-beginner-with-quick-ref.pdf
+✗ 77. Extras/Help/Tutorials/QCT6-Pro-Power-Panto_Version6.00.43-with-Quick-Ref.pdf
+✗ 78. Extras/Help/Tutorials/QCT6-ProJ-V6.00.43-EZ-Mode-to-sew-within-borders-with-Quick-Ref.pdf
+✗ 79. Extras/Help/Tutorials/QCT6-Select-and-Sew-V6.00.43.pdf
+✗ 80. Extras/Help/Tutorials/fabric-compensation.pdf
+✗ 81. Extras/Help/Tutorials/fonts.pdf
+✗ 82. Extras/Help/Tutorials/marking-tool.pdf
+✗ 83. Extras/Help/Tutorials/pattern-eclipsegold.pdf
+✗ 84. Extras/Help/Tutorials/patterncad-qct5-creating-block-from-photo.pdf
+✗ 85. Extras/Help/Tutorials/power-panto.pdf
+✗ 86. Extras/Help/Tutorials/qct-pantograph-ez-basic-and-advanced.pdf
+✗ 87. Extras/Help/Tutorials/qct5-quiltcad.pdf
+✗ 88. Extras/Help/Tutorials/quiltcad-quilt-layout-qct5.pdf
+✗ 89. Extras/Help/Tutorials/record.pdf
+✗ 90. Extras/Help/Tutorials/select-and-sew-qct5.pdf
+✗ 91. Extras/Help/Tutorials/working-with-zones.pdf
