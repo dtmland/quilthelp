@@ -75,15 +75,60 @@ class HelpIndexTransformer:
                     if item_match:
                         content = item_match.group(2).strip()
                         if content and content.upper() != 'EMPTY':
-                            parts = [p.strip() for p in content.split(',')]
+                            # Split on comma - don't strip to preserve spacing in filenames
+                            parts = content.split(',')
+                            
+                            # Determine format based on number of parts and known categories
+                            # Format: Title,Resource,Image,Category (Image and Category optional)
                             if len(parts) >= 2:
-                                item = {
-                                    'title': parts[0],
-                                    'resource': parts[1],  # PDF filename or URL
-                                    'image': parts[2] if len(parts) > 2 else '',
-                                    'category': parts[3] if len(parts) > 3 else ''
-                                }
-                                brand_dict[current_brand][current_section].append(item)
+                                title = parts[0].strip()
+                                
+                                # Check if last part is a category
+                                has_category = parts[-1].strip() in ['help pdh', 'tutorial pdt']
+                                
+                                if len(parts) == 2:
+                                    # Title,Resource
+                                    resource = parts[1].strip()
+                                    image = ''
+                                    category = ''
+                                elif len(parts) == 3:
+                                    if has_category:
+                                        # Title,Resource,Category
+                                        resource = parts[1].strip()
+                                        image = ''
+                                        category = parts[2].strip()
+                                    else:
+                                        # Title,Resource,Image
+                                        resource = parts[1].strip()
+                                        image = parts[2].strip()
+                                        category = ''
+                                elif len(parts) == 4:
+                                    # Title,Resource,Image,Category
+                                    resource = parts[1].strip()
+                                    image = parts[2].strip()
+                                    category = parts[3].strip()
+                                else:
+                                    # 5+ parts: resource contains comma(s)
+                                    # Resource is everything from parts[1] up to (but not including) image and category
+                                    if has_category:
+                                        # Has category, so parts are: Title, Resource..., Image, Category
+                                        resource = ','.join(parts[1:-2])
+                                        image = parts[-2].strip()
+                                        category = parts[-1].strip()
+                                    else:
+                                        # No category, so parts are: Title, Resource..., Image
+                                        resource = ','.join(parts[1:-1])
+                                        image = parts[-1].strip()
+                                        category = ''
+                                
+                                if title and resource:
+                                    item = {
+                                        'title': title,
+                                        'resource': resource,  # PDF filename or URL
+                                        'image': image,
+                                        'category': category
+                                    }
+                                    brand_dict[current_brand][current_section].append(item)
         
         # Convert to ordered list
         for brand_name in brand_order:

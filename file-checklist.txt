@@ -1,13 +1,13 @@
 # Referenced Files Checklist
-Generated: 2025-12-30 22:15:20
+Generated: 2025-12-31 00:30:32
 Total Files: 256
 
 ✗ 1. Extras/Help/Help/1-Pantograph PantoStacker Screen Power Panto Mode.pdf
-✗ 2. Extras/Help/Help/1-Select and Sew Power Placement Screen and Functions.pdf
+✗ 2. Extras/Help/Help/1-Select & Sew Power Placement Screen & Functions.pdf
 ✗ 3. Extras/Help/Help/2-Pantograph Power Panto Mode How to Place as a Single Pattern.pdf
-✗ 4. Extras/Help/Help/2-Select and Sew Placement Methods How Too Place and Sew.pdf
+✗ 4. Extras/Help/Help/2-Select & Sew Placement Methods How Too Place and Sew.pdf
 ✗ 5. Extras/Help/Help/3-Pantograph Power Panto Mode How to Sew in Zones.pdf
-✗ 6. Extras/Help/Help/3-Select and Sew How to Place and Sew Borders & Corners.pdf
+✗ 6. Extras/Help/Help/3-Select & Sew How to Place & Sew Borders & Corners.pdf
 ✗ 7. Extras/Help/Help/4 point zone placement.pdf
 ✗ 8. Extras/Help/Help/APQS Basics.pdf
 ✗ 9. Extras/Help/Help/APQS Borders.pdf
@@ -49,7 +49,7 @@ Total Files: 256
 ✗ 45. Extras/Help/Help/QCT 6 Quick Start Guide V1.1.pdf
 ✗ 46. Extras/Help/Help/QCT 6 Use Instructions V1.1 23-11-28.pdf
 ✗ 47. Extras/Help/Help/Quick Guide for Center Placement Between Zones.pdf
-✗ 48. Extras/Help/Help/Quick Start Power Placement Place and Sew a Block design.pdf
+✗ 48. Extras/Help/Help/Quick Start Power Placement Place & Sew a Block design.pdf
 ✗ 49. Extras/Help/Help/QuiltCAD.pdf
 ✗ 50. Extras/Help/Help/QuiltMotion QCT 5 Beginnings Borders & Edge to Edge design.pdf
 ✗ 51. Extras/Help/Help/QuiltMotion QCT 5 Beginnings Sew in Zones Rolling frame Center placement.pdf
@@ -61,13 +61,13 @@ Total Files: 256
 ✗ 57. Extras/Help/Help/Select & Sew Power Placement Tools Buttons & functions.pdf
 ✗ 58. Extras/Help/Help/Select & Sew using Pantograph Borders & Corners.pdf
 ✗ 59. Extras/Help/Help/Sew in Zones Center Placement Using Power Panto Mode.pdf
-✗ 60. Extras/Help/Help/Staggering QCT 5 Power Panto EZ&Basic Modes.pdf
+✗ 60. Extras/Help/Help/Staggering QCT 5 Power Panto,  EZ & Basic Modes.pdf
 ✗ 61. Extras/Help/Help/Updating and Installing Online Updates.pdf
 ✗ 62. Extras/Help/Tutorials/Batch Import QCT6.pdf
 ✗ 63. Extras/Help/Tutorials/Hoop frame Zone Placement.pdf
 ✗ 64. Extras/Help/Tutorials/QCT5 Batch Import Tutorial.pdf
 ✗ 65. Extras/Help/Tutorials/QCT5 Beginnings Nested Panto Tutorial for beginner.pdf
-✗ 66. Extras/Help/Tutorials/QCT5 Beginnings Non-nested Panto Tutorial for beginner.pdf
+✗ 66. Extras/Help/Tutorials/QCT5 Beginnings Non nested Panto Tutorial for beginner.pdf
 ✗ 67. Extras/Help/Tutorials/QCT5 Beginnings Panto Upgrade Info from QCT4.pdf
 ✗ 68. Extras/Help/Tutorials/QCT5 Block Pattern Power Placement.pdf
 ✗ 69. Extras/Help/Tutorials/QCT5 Gold Access Borders and Corners Tutorial.pdf

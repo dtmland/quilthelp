@@ -8,7 +8,7 @@ Instructions - Update the list sets for each brand
 <QUILTMOTION>
 
 <HELP>
-  <0>3-Select and Sew Borders and Corners,3-Select and Sew How to Place and Sew Borders & Corners.pdf,select3.jpg</0>
+  <0>3-Select and Sew Borders and Corners,3-Select & Sew How to Place & Sew Borders & Corners.pdf,select3.jpg</0>
   <1>Downloading Gold Patterns,Downloading Gold Subscription Patterns.pdf,dsp.jpg,help pdh</1>
   <2>Hoop Frame Zone Placement,Hoop frame Zone Placement.pdf,hf.jpg,help pdh</2>
   <3>Borders and Corners,Gold Access B and C.pdf,bandc.jpg,help pdh</3>
@@ -18,12 +18,12 @@ Instructions - Update the list sets for each brand
   <7>Zone Center Placement,Quick Guide for Center Placement Between Zones.pdf,center.jpg,help pdh</7>
   <8>QuiltCAD,QuiltCAD.pdf,qc.jpg,help pdh</8>
   <9>Update Your Software,Updating and Installing Online Updates.pdf,update.jpg,help pdh</9>
-  <10>1-Select and Sew,1-Select and Sew Power Placement Screen and Functions.pdf,select1.jpg,help pdh</10>
-  <11>2-Select and Sew,2-Select and Sew Placement Methods How Too Place and Sew.pdf,select2.jpg,help pdh</11>
+  <10>1-Select and Sew,1-Select & Sew Power Placement Screen & Functions.pdf,select1.jpg,help pdh</10>
+  <11>2-Select and Sew,2-Select & Sew Placement Methods How Too Place and Sew.pdf,select2.jpg,help pdh</11>
   <12>1-Pantograph,1-Pantograph PantoStacker Screen Power Panto Mode.pdf,panto1.jpg,help pdh</12>
   <13>2-Pantograph,2-Pantograph Power Panto Mode How to Place as a Single Pattern.pdf,panto2.jpg,help pdh</13>
   <14>3-Pantograph,3-Pantograph Power Panto Mode How to Sew in Zones.pdf,panto3.jpg,help pdh</14>
-  <15>Quick Start Power Placement Block,Quick Start Power Placement Place and Sew a Block design.pdf,qs.jpg,help pdh</15>
+  <15>Quick Start Power Placement Block,Quick Start Power Placement Place & Sew a Block design.pdf,qs.jpg,help pdh</15>
   <16>4 point zone placement,4 point zone placement.pdf,4p.jpg,help pdh</16>
   <17>Borders & Corners Using Select & Sew & Pantograph,Borders & Corners Using Select & Sew & Pantograph.pdf,bcss.jpg,help pdh</17>
   <18>EZ Mode how to set up design,EZ Mode how to set up design.pdf,ez.jpg,help pdh</18>
@@ -49,13 +49,13 @@ Instructions - Update the list sets for each brand
   <38>Select & Sew Power Placement Tools Buttons & functions,Select & Sew Power Placement Tools Buttons & functions.pdf,sspp.jpg,help pdh</38>
   <39>Select & Sew using Pantograph Borders & Corners,Select & Sew using Pantograph Borders & Corners.pdf,sspbc.jpg,help pdh</39>
   <40>Sew in Zones Center Placement Using Power Panto Mode,Sew in Zones Center Placement Using Power Panto Mode.pdf,cp.jpg,help pdh</40>
-  <41>Staggering QCT 5 Power Panto EZ&Basic Modes,Staggering QCT 5 Power Panto EZ&Basic Modes.pdf,sppezb.jpg,help pdh</41>
+  <41>Staggering QCT 5 Power Panto EZ&Basic Modes,Staggering QCT 5 Power Panto,  EZ & Basic Modes.pdf,sppezb.jpg,help pdh</41>
 </HELP>
 
 <TUTORIALS>
   <0>Batch Import,QCT5 Batch Import Tutorial.pdf,batch.jpg,tutorial pdt</0>
   <1>Nested Pantos for Beginnings,QCT5 Beginnings Nested Panto Tutorial for beginner.pdf,nested panto.jpg,tutorial pdt</1>
-  <2>Non-nested Pantos for Beginnings,QCT5 Beginnings Non-nested Panto Tutorial for beginner.pdf,non nested panto.jpg,tutorial pdt</2>
+  <2>Non-nested Pantos for Beginnings,QCT5 Beginnings Non nested Panto Tutorial for beginner.pdf,non nested panto.jpg,tutorial pdt</2>
   <3>Pattern Placement - Blocks,QCT5 Block Pattern Power Placement.pdf,pp.jpg,tutorial pdt</3>
   <4>Borders and Corners,QCT5 Gold Access Borders and Corners Tutorial.pdf,gold bandc.jpg,tutorial pdt</4>
   <5>Power Panto,QCT5 Pro Power Panto.pdf,ppp.jpg,tutorial pdt</5>
@@ -87,7 +87,7 @@ Instructions - Update the list sets for each brand
 <NOLTING>
 
 <HELP>
-  <0>3-Select and Sew Borders and Corners,3-Select and Sew How to Place and Sew Borders & Corners.pdf,panto3.jpg</0>
+  <0>3-Select and Sew Borders and Corners,3-Select & Sew How to Place & Sew Borders & Corners.pdf,panto3.jpg</0>
   <1>Downloading Gold Patterns,Downloading Gold Subscription Patterns.pdf,dsp.jpg,help pdh</1>
   <2>EMPTY</2>
   <3>Borders and Corners,Gold Access B and C.pdf,bandc.jpg,help pdh</3>
@@ -97,12 +97,12 @@ Instructions - Update the list sets for each brand
   <7>Zone Center Placement,Quick Guide for Center Placement Between Zones.pdf,center.jpg,help pdh</7>
   <8>QuiltCAD,QuiltCAD.pdf,qc.jpg,help pdh</8>
   <9>Update Your Software,Updating and Installing Online Updates.pdf,update.jpg,help pdh</9>
-  <10>1-Select and Sew,1-Select and Sew Power Placement Screen and Functions.pdf,select1.jpg,help pdh</10>
-  <11>2-Select and Sew,2-Select and Sew Placement Methods How Too Place and Sew.pdf,select2.jpg,help pdh</11>
+  <10>1-Select and Sew,1-Select & Sew Power Placement Screen & Functions.pdf,select1.jpg,help pdh</10>
+  <11>2-Select and Sew,2-Select & Sew Placement Methods How Too Place and Sew.pdf,select2.jpg,help pdh</11>
   <12>1-Pantograph,1-Pantograph PantoStacker Screen Power Panto Mode.pdf,panto1.jpg,help pdh</12>
   <13>2-Pantograph,2-Pantograph Power Panto Mode How to Place as a Single Pattern.pdf,panto2.jpg,help pdh</13>
   <14>3-Pantograph,3-Pantograph Power Panto Mode How to Sew in Zones.pdf,panto3.jpg,help pdh</14>
-  <15>Quick Start Power Placement Block,Quick Start Power Placement Place and Sew a Block design.pdf,qs.jpg,help pdh</15>
+  <15>Quick Start Power Placement Block,Quick Start Power Placement Place & Sew a Block design.pdf,qs.jpg,help pdh</15>
   <16>4 point zone placement,4 point zone placement.pdf,4p.jpg,help pdh</16>
   <17>Borders & Corners Using Select & Sew & Pantograph,Borders & Corners Using Select & Sew & Pantograph.pdf,bcss.jpg,help pdh</17>
   <18>EZ Mode how to set up design,EZ Mode how to set up design.pdf,ez.jpg,help pdh</18>
@@ -128,13 +128,13 @@ Instructions - Update the list sets for each brand
   <38>Select & Sew Power Placement Tools Buttons & functions,Select & Sew Power Placement Tools Buttons & functions.pdf,sspp.jpg,help pdh</38>
   <39>Select & Sew using Pantograph Borders & Corners,Select & Sew using Pantograph Borders & Corners.pdf,sspbc.jpg,help pdh</39>
   <40>Sew in Zones Center Placement Using Power Panto Mode,Sew in Zones Center Placement Using Power Panto Mode.pdf,cp.jpg,help pdh</40>
-  <41>Staggering QCT 5 Power Panto EZ&Basic Modes,Staggering QCT 5 Power Panto EZ&Basic Modes.pdf,sppezb.jpg,help pdh</41>
+  <41>Staggering QCT 5 Power Panto EZ&Basic Modes,Staggering QCT 5 Power Panto,  EZ & Basic Modes.pdf,sppezb.jpg,help pdh</41>
 </HELP>
 
 <TUTORIALS>
   <0>Batch Import,QCT5 Batch Import Tutorial.pdf,batch.jpg,tutorial pdt</0>
   <1>Nested Pantos for Beginnings,QCT5 Beginnings Nested Panto Tutorial for beginner.pdf,nested panto.jpg,tutorial pdt</1>
-  <2>Non-nested Pantos for Beginnings,QCT5 Beginnings Non-nested Panto Tutorial for beginner.pdf,non nested panto.jpg,tutorial pdt</2>
+  <2>Non-nested Pantos for Beginnings,QCT5 Beginnings Non nested Panto Tutorial for beginner.pdf,non nested panto.jpg,tutorial pdt</2>
   <3>Pattern Placement - Blocks,QCT5 Block Pattern Power Placement.pdf,pp.jpg,tutorial pdt</3>
   <4>Borders and Corners,QCT5 Gold Access Borders and Corners Tutorial.pdf,gold bandc.jpg,tutorial pdt</4>
   <5>Power Panto,QCT5 Pro Power Panto.pdf,ppp.jpg,tutorial pdt</5>
@@ -154,7 +154,7 @@ Instructions - Update the list sets for each brand
 <BROTHER>
 
 <HELP>
-  <0>3-Select and Sew Borders and Corners,3-Select and Sew How to Place and Sew Borders & Corners.pdf,panto3.jpg</0>
+  <0>3-Select and Sew Borders and Corners,3-Select & Sew How to Place & Sew Borders & Corners.pdf,panto3.jpg</0>
   <1>Downloading Gold Patterns,Downloading Gold Subscription Patterns.pdf,dsp.jpg,help pdh</1>
   <2>Hoop Frame Zone Placement,Hoop frame Zone Placement.pdf,hf.jpg,help pdh</2>
   <3>Borders and Corners,Gold Access B and C.pdf,bandc.jpg,help pdh</3>
@@ -164,18 +164,18 @@ Instructions - Update the list sets for each brand
   <7>Zone Center Placement,Quick Guide for Center Placement Between Zones.pdf,center.jpg,help pdh</7>
   <8>QuiltCAD,QuiltCAD.pdf,qc.jpg,help pdh</8>
   <9>Update Your Software,Updating and Installing Online Updates.pdf,update.jpg,help pdh</9>
-  <10>1-Select and Sew,1-Select and Sew Power Placement Screen and Functions.pdf,select1.jpg,help pdh</10>
-  <11>2-Select and Sew,2-Select and Sew Placement Methods How Too Place and Sew.pdf,select2.jpg,help pdh</11>
+  <10>1-Select and Sew,1-Select & Sew Power Placement Screen & Functions.pdf,select1.jpg,help pdh</10>
+  <11>2-Select and Sew,2-Select & Sew Placement Methods How Too Place and Sew.pdf,select2.jpg,help pdh</11>
   <12>1-Pantograph,1-Pantograph PantoStacker Screen Power Panto Mode.pdf,panto1.jpg,help pdh</12>
   <13>2-Pantograph,2-Pantograph Power Panto Mode How to Place as a Single Pattern.pdf,panto2.jpg,help pdh</13>
   <14>3-Pantograph,3-Pantograph Power Panto Mode How to Sew in Zones.pdf,panto3.jpg,help pdh</14>
-  <15>Quick Start Power Placement Block,Quick Start Power Placement Place and Sew a Block design.pdf,qs.jpg,help pdh</15>
+  <15>Quick Start Power Placement Block,Quick Start Power Placement Place & Sew a Block design.pdf,qs.jpg,help pdh</15>
 </HELP>
 
 <TUTORIALS>
   <0>Batch Import,QCT5 Batch Import Tutorial.pdf,batch.jpg,tutorial pdt</0>
   <1>Nested Pantos for Beginnings,QCT5 Beginnings Nested Panto Tutorial for beginner.pdf,nested panto.jpg,tutorial pdt</1>
-  <2>Non-nested Pantos for Beginnings,QCT5 Beginnings Non-nested Panto Tutorial for beginner.pdf,non nested panto.jpg,tutorial pdt</2>
+  <2>Non-nested Pantos for Beginnings,QCT5 Beginnings Non nested Panto Tutorial for beginner.pdf,non nested panto.jpg,tutorial pdt</2>
   <3>Pattern Placement - Blocks,QCT5 Block Pattern Power Placement.pdf,pp.jpg,tutorial pdt</3>
   <4>Borders and Corners,QCT5 Gold Access Borders and Corners Tutorial.pdf,gold bandc.jpg,tutorial pdt</4>
   <5>Power Panto,QCT5 Pro Power Panto.pdf,ppp.jpg,tutorial pdt</5>
@@ -201,7 +201,7 @@ Instructions - Update the list sets for each brand
 <JUKI>
 
 <HELP>
-  <0>3-Select and Sew Borders and Corners,3-Select and Sew How to Place and Sew Borders & Corners.pdf,panto3.jpg</0>
+  <0>3-Select and Sew Borders and Corners,3-Select & Sew How to Place & Sew Borders & Corners.pdf,panto3.jpg</0>
   <1>Downloading Gold Patterns,Downloading Gold Subscription Patterns.pdf,dsp.jpg,help pdh</1>
   <2>EMPTY</2>
   <3>Borders and Corners,Gold Access B and C.pdf,bandc.jpg,help pdh</3>
@@ -211,12 +211,12 @@ Instructions - Update the list sets for each brand
   <7>Zone Center Placement,Quick Guide for Center Placement Between Zones.pdf,center.jpg,help pdh</7>
   <8>QuiltCAD,QuiltCAD.pdf,qc.jpg,help pdh</8>
   <9>Update Your Software,Updating and Installing Online Updates.pdf,update.jpg,help pdh</9>
-  <10>1-Select and Sew,1-Select and Sew Power Placement Screen and Functions.pdf,select1.jpg,help pdh</10>
-  <11>2-Select and Sew,2-Select and Sew Placement Methods How Too Place and Sew.pdf,select2.jpg,help pdh</11>
+  <10>1-Select and Sew,1-Select & Sew Power Placement Screen & Functions.pdf,select1.jpg,help pdh</10>
+  <11>2-Select and Sew,2-Select & Sew Placement Methods How Too Place and Sew.pdf,select2.jpg,help pdh</11>
   <12>1-Pantograph,1-Pantograph PantoStacker Screen Power Panto Mode.pdf,panto1.jpg,help pdh</12>
   <13>2-Pantograph,2-Pantograph Power Panto Mode How to Place as a Single Pattern.pdf,panto2.jpg,help pdh</13>
   <14>3-Pantograph,3-Pantograph Power Panto Mode How to Sew in Zones.pdf,panto3.jpg,help pdh</14>
-  <15>Quick Start Power Placement Block,Quick Start Power Placement Place and Sew a Block design.pdf,qs.jpg,help pdh</15>
+  <15>Quick Start Power Placement Block,Quick Start Power Placement Place & Sew a Block design.pdf,qs.jpg,help pdh</15>
   <16>4 point zone placement,4 point zone placement.pdf,4p.jpg,help pdh</16>
   <17>Borders & Corners Using Select & Sew & Pantograph,Borders & Corners Using Select & Sew & Pantograph.pdf,bcss.jpg,help pdh</17>
   <18>EZ Mode how to set up design,EZ Mode how to set up design.pdf,ez.jpg,help pdh</18>
@@ -242,13 +242,13 @@ Instructions - Update the list sets for each brand
   <38>Select & Sew Power Placement Tools Buttons & functions,Select & Sew Power Placement Tools Buttons & functions.pdf,sspp.jpg,help pdh</38>
   <39>Select & Sew using Pantograph Borders & Corners,Select & Sew using Pantograph Borders & Corners.pdf,sspbc.jpg,help pdh</39>
   <40>Sew in Zones Center Placement Using Power Panto Mode,Sew in Zones Center Placement Using Power Panto Mode.pdf,cp.jpg,help pdh</40>
-  <41>Staggering QCT 5 Power Panto EZ&Basic Modes,Staggering QCT 5 Power Panto EZ&Basic Modes.pdf,sppezb.jpg,help pdh</41>
+  <41>Staggering QCT 5 Power Panto EZ&Basic Modes,Staggering QCT 5 Power Panto,  EZ & Basic Modes.pdf,sppezb.jpg,help pdh</41>
 </HELP>
 
 <TUTORIALS>
   <0>Batch Import,QCT5 Batch Import Tutorial.pdf,batch.jpg,tutorial pdt</0>
   <1>Nested Pantos for Beginnings,QCT5 Beginnings Nested Panto Tutorial for beginner.pdf,nested panto.jpg,tutorial pdt</1>
-  <2>Non-nested Pantos for Beginnings,QCT5 Beginnings Non-nested Panto Tutorial for beginner.pdf,non nested panto.jpg,tutorial pdt</2>
+  <2>Non-nested Pantos for Beginnings,QCT5 Beginnings Non nested Panto Tutorial for beginner.pdf,non nested panto.jpg,tutorial pdt</2>
   <3>Pattern Placement - Blocks,QCT5 Block Pattern Power Placement.pdf,pp.jpg,tutorial pdt</3>
   <4>Borders and Corners,QCT5 Gold Access Borders and Corners Tutorial.pdf,gold bandc.jpg,tutorial pdt</4>
   <5>Power Panto,QCT5 Pro Power Panto.pdf,ppp.jpg,tutorial pdt</5>
@@ -282,7 +282,7 @@ Instructions - Update the list sets for each brand
 <APQS>
 
 <HELP>
-  <0>3-Select and Sew Borders and Corners,3-Select and Sew How to Place and Sew Borders & Corners.pdf,panto3.jpg</0>
+  <0>3-Select and Sew Borders and Corners,3-Select & Sew How to Place & Sew Borders & Corners.pdf,panto3.jpg</0>
   <1>EMPTY</1>
   <2>EMPTY</2>
   <3>Borders and Corners,Gold Access B and C.pdf,bandc.jpg,help pdh</3>
@@ -292,12 +292,12 @@ Instructions - Update the list sets for each brand
   <7>Zone Center Placement,Quick Guide for Center Placement Between Zones.pdf,center.jpg,help pdh</7>
   <8>QuiltCAD,QuiltCAD.pdf,qc.jpg,help pdh</8>
   <9>EMPTY</9>
-  <10>1-Select and Sew,1-Select and Sew Power Placement Screen and Functions.pdf,select1.jpg,help pdh</10>
-  <11>2-Select and Sew,2-Select and Sew Placement Methods How Too Place and Sew.pdf,select2.jpg,help pdh</11>
+  <10>1-Select and Sew,1-Select & Sew Power Placement Screen & Functions.pdf,select1.jpg,help pdh</10>
+  <11>2-Select and Sew,2-Select & Sew Placement Methods How Too Place and Sew.pdf,select2.jpg,help pdh</11>
   <12>1-Pantograph,1-Pantograph PantoStacker Screen Power Panto Mode.pdf,panto1.jpg,help pdh</12>
   <13>2-Pantograph,2-Pantograph Power Panto Mode How to Place as a Single Pattern.pdf,panto2.jpg,help pdh</13>
   <14>3-Pantograph,3-Pantograph Power Panto Mode How to Sew in Zones.pdf,panto3.jpg,help pdh</14>
-  <15>Quick Start Power Placement Block,Quick Start Power Placement Place and Sew a Block design.pdf,qs.jpg,help pdh</15>
+  <15>Quick Start Power Placement Block,Quick Start Power Placement Place & Sew a Block design.pdf,qs.jpg,help pdh</15>
 </HELP>
 
 <TUTORIALS>
@@ -318,7 +318,7 @@ Instructions - Update the list sets for each brand
 <QMGEN2>
 
 <HELP>
-  <0>3-Select and Sew Borders and Corners,3-Select and Sew How to Place and Sew Borders & Corners.pdf,select3.jpg,help pdh</0>
+  <0>3-Select and Sew Borders and Corners,3-Select & Sew How to Place & Sew Borders & Corners.pdf,select3.jpg,help pdh</0>
   <1>Downloading Gold Patterns,Downloading Gold Subscription Patterns.pdf,dsp.jpg,help pdh</1>
   <2>Hoop Frame Zone Placement,Hoop frame Zone Placement.pdf,hf.jpg,help pdh</2>
   <3>Edge to Edge,QCT 6 Quick Start Guide V1.1.pdf,e2e quick start.jpg,help pdh</3>
@@ -375,7 +375,7 @@ Instructions - Update the list sets for each brand
 <NOLGEN2>
 
 <HELP>
-  <0>3-Select and Sew Borders and Corners,3-Select and Sew How to Place and Sew Borders & Corners.pdf,select3.jpg</0>
+  <0>3-Select and Sew Borders and Corners,3-Select & Sew How to Place & Sew Borders & Corners.pdf,select3.jpg</0>
   <1>Downloading Gold Patterns,Downloading Gold Subscription Patterns.pdf,dsp.jpg,help pdh</1>
  
  </HELP>
@@ -414,7 +414,7 @@ Instructions - Update the list sets for each brand
 <JUKIGEN2>
 
 <HELP>
-  <0>3-Select and Sew Borders and Corners,3-Select and Sew How to Place and Sew Borders & Corners.pdf,select3.jpg</0>
+  <0>3-Select and Sew Borders and Corners,3-Select & Sew How to Place & Sew Borders & Corners.pdf,select3.jpg</0>
   <1>Downloading Gold Patterns,Downloading Gold Subscription Patterns.pdf,dsp.jpg,help pdh</1>
  
  </HELP>
